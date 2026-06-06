@@ -37,3 +37,6 @@ DOMAIN-SUFFIX,gate.io
 
 # Bitfinex
 DOMAIN-SUFFIX,bitfinex.com
+
+# Backpack
+DOMAIN-KEYWORD,backpack
