@@ -7,6 +7,8 @@ const rulesDir = path.join(root, "rules");
 const reportsDir = path.join(root, "reports");
 const gfwlistPath =
   process.env.GFWLIST_PATH || path.join(root, "data", "gfwlist.txt");
+const manualIncludePath =
+  process.env.MANUAL_INCLUDE_PATH || path.join(root, "data", "manual-include.list");
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -96,6 +98,21 @@ function extractGfwDomains(decoded) {
   return domains;
 }
 
+function readManualIncludes(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return new Set();
+  }
+
+  return new Set(
+    fs
+      .readFileSync(filePath, "utf8")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith("#"))
+      .map((line) => line.toLowerCase()),
+  );
+}
+
 function hasGfwEvidence(domain, gfwDomains) {
   const normalized = normalizeDomain(domain);
 
@@ -112,7 +129,7 @@ function hasGfwEvidence(domain, gfwDomains) {
   return "";
 }
 
-function filterFile(file, gfwDomains) {
+function filterFile(file, gfwDomains, manualIncludes) {
   const sourcePath = path.join(candidatesDir, file);
   const lines = fs.readFileSync(sourcePath, "utf8").split(/\r?\n/);
   const output = [];
@@ -138,6 +155,21 @@ function filterFile(file, gfwDomains) {
     const [type, value, ...rest] = trimmed.split(",");
     if (!["DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD"].includes(type)) {
       report.push(`SKIP unsupported: ${trimmed}`);
+      continue;
+    }
+
+    const manualKey = trimmed.toLowerCase();
+    if (manualIncludes.has(manualKey)) {
+      if (currentHeader && activeOutputHeader !== currentHeader) {
+        if (output.length && output[output.length - 1] !== "") {
+          output.push("");
+        }
+        output.push(currentHeader);
+        activeOutputHeader = currentHeader;
+      }
+
+      output.push([type, value, ...rest].join(","));
+      report.push(`KEEP ${trimmed} <= manual-include`);
       continue;
     }
 
@@ -183,16 +215,19 @@ function main() {
 
   const decoded = decodeGfwList(gfwlistPath);
   const gfwDomains = extractGfwDomains(decoded);
+  const manualIncludes = readManualIncludes(manualIncludePath);
   const files = fs
     .readdirSync(candidatesDir)
     .filter((file) => file.endsWith(".list"))
     .sort();
 
   for (const file of files) {
-    filterFile(file, gfwDomains);
+    filterFile(file, gfwDomains, manualIncludes);
   }
 
-  console.log(`Filtered ${files.length} candidate rule files with ${gfwDomains.size} GFWList domains.`);
+  console.log(
+    `Filtered ${files.length} candidate rule files with ${gfwDomains.size} GFWList domains and ${manualIncludes.size} manual includes.`,
+  );
 }
 
 main();

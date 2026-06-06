@@ -20,6 +20,7 @@ rules/                 # GFWList 命中后的规则，由脚本生成
 dist/                  # 客户端订阅规则，由脚本生成
 reports/               # 筛选报告，记录保留和丢弃原因
 data/                  # GFWList 等阻断证据快照
+data/manual-include.list # 用户手动确认需要纳入的规则
 docs/                  # 项目设计和规则规范
 scripts/               # 构建、检查脚本
 ```
@@ -46,6 +47,7 @@ DOMAIN-SUFFIX,anthropic.com
 rules/ai.list
 rules/adult.list
 rules/crypto.list
+rules/custom.list
 rules/developer.list
 rules/google.list
 rules/social.list
@@ -56,11 +58,12 @@ rules/social.list
 ## 推荐工作流
 
 1. 在 `candidates/` 中维护候选规则。
-2. 运行 `npm run filter:blocked`，按 GFWList 生成 `rules/`。
-3. 运行 `npm run lint` 检查规则。
-4. 运行 `npm run build` 生成 `dist/` 下的客户端规则。
-5. 提交并推送到 GitHub 私有仓库。
-6. 各代理工具订阅 `dist/` 中对应规则集。
+2. 如需强制纳入规则，写入 `data/manual-include.list`。
+3. 运行 `npm run filter:blocked`，按 GFWList 和手动纳入清单生成 `rules/`。
+4. 运行 `npm run lint` 检查规则。
+5. 运行 `npm run build` 生成 `dist/` 下的客户端规则。
+6. 提交并推送到 GitHub 私有仓库。
+7. 各代理工具订阅 `dist/` 中对应规则集。
 
 ## 不应提交的内容
 

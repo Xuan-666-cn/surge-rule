@@ -8,6 +8,8 @@ https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
 The file is used by `scripts/filter-blocked.js` to filter candidate service domains into high-confidence blocked rule sets.
 
+`manual-include.list` contains user-confirmed rules that should be included even when they are not matched by GFWList. These entries are reported as `manual-include` in `reports/*.report.txt`.
+
 Update workflow:
 
 ```bash
@@ -16,4 +18,3 @@ npm run filter:blocked
 npm run lint
 npm run build
 ```
-

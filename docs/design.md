@@ -37,6 +37,7 @@ Surge、Clash、Quantumult X、Shadowrocket 的完整配置格式不同，但它
 筛选逻辑：
 
 - 命中 GFWList 的域名进入 `rules/`。
+- 命中 `data/manual-include.list` 的用户手动确认规则也会进入 `rules/`，并在报告中标记为 `manual-include`。
 - 未命中的域名保留在 `candidates/`，并记录到 `reports/*.report.txt`。
 - `dist/` 只从 `rules/` 生成。
 - IP 不从 DNS 当前解析结果生成。只有官方明确发布固定 IP 段，才考虑写入规则。
@@ -113,6 +114,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 ### crypto.list
 
 加密货币交易所、行情工具、预测市场和钱包服务，包括 HTX、Binance、Bybit、Backpack、CoinGlass、Bitget、Polymarket、Kraken、MetaMask、SafePal、OKX、Coinbase、KuCoin、MEXC、Gate、Crypto.com、Bitfinex、Deribit、Gemini、Bitstamp。
+
+### custom.list
+
+用户手动确认需要纳入的常用规则。
 
 ### adult.list
 
