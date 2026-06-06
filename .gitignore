@@ -1,0 +1,17 @@
+# Secrets and local-only files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileconfig
+
+# Proxy subscriptions and private configs
+subscriptions/
+private/
+local/
+*.secret.*
+*.private.*
+
+# System files
+.DS_Store

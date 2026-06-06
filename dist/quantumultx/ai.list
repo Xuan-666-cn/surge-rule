@@ -1,0 +1,9 @@
+# AI services
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-SUFFIX,perplexity.ai
+
