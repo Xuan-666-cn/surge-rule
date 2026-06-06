@@ -96,6 +96,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 
 加密货币交易所、行情工具、预测市场和钱包服务，包括 HTX、Binance、Bybit、Backpack、CoinGlass、Bitget、Polymarket、Kraken、MetaMask、SafePal、OKX、Coinbase、KuCoin、MEXC、Gate、Crypto.com、Bitfinex、Deribit、Gemini、Bitstamp。
 
+### adult.list
+
+成人内容、成人直播和成人视频站点，包括用户指定站点以及常见热门成人内容平台。
+
 ## 待整理分类
 
 以下分类暂不放入仓库，等实际整理完成后再新增：
