@@ -8,8 +8,6 @@ HOST-SUFFIX,t.me
 HOST-SUFFIX,line.me
 HOST-SUFFIX,line-apps.com
 HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,line.biz
-HOST-SUFFIX,lin.ee
 
 # X / Twitter
 HOST-SUFFIX,x.com
@@ -23,11 +21,6 @@ HOST-SUFFIX,whatsapp.net
 
 # Signal
 HOST-SUFFIX,signal.org
-HOST-SUFFIX,signal.art
-HOST-SUFFIX,signal.group
-HOST-SUFFIX,signal.link
-HOST-SUFFIX,signal.me
-HOST-SUFFIX,signal.tube
 
 # Discord
 HOST-SUFFIX,discord.com
@@ -57,24 +50,15 @@ HOST-SUFFIX,redditstatic.com
 # Pinterest
 HOST-SUFFIX,pinterest.com
 HOST-SUFFIX,pinimg.com
-HOST-SUFFIX,pin.it
 
 # Tumblr
 HOST-SUFFIX,tumblr.com
-HOST-SUFFIX,tumblr.co
-
-# Snapchat
-HOST-SUFFIX,snapchat.com
-HOST-SUFFIX,snap.com
-HOST-SUFFIX,sc-cdn.net
 
 # Viber
 HOST-SUFFIX,viber.com
 
 # KakaoTalk
 HOST-SUFFIX,kakao.com
-HOST-SUFFIX,kakaocdn.net
-HOST-SUFFIX,kakaocorp.com
 
 # Mastodon
 HOST-SUFFIX,joinmastodon.org

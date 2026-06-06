@@ -1,0 +1,67 @@
+KEEP DOMAIN-SUFFIX,bad.news <= bad.news
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stripchat.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stripcdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,strpst.com
+KEEP DOMAIN-SUFFIX,hanime1.me <= hanime1.me
+KEEP DOMAIN-SUFFIX,missav.com <= missav.com
+KEEP DOMAIN-SUFFIX,missav.ws <= missav.ws
+DROP no-gfwlist-match: DOMAIN-SUFFIX,missav.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,missav.live
+DROP no-gfwlist-match: DOMAIN-SUFFIX,missav123.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,supjav.com
+KEEP DOMAIN-SUFFIX,pornhub.com <= pornhub.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pornhubpremium.com
+KEEP DOMAIN-SUFFIX,phncdn.com <= phncdn.com
+KEEP DOMAIN-SUFFIX,xvideos.com <= xvideos.com
+KEEP DOMAIN-SUFFIX,xvideos-cdn.com <= xvideos-cdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,xv-cdn.com
+KEEP DOMAIN-SUFFIX,xnxx.com <= xnxx.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,xnxx-cdn.com
+KEEP DOMAIN-SUFFIX,xhamster.com <= xhamster.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,xhcdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,redtube.com
+KEEP DOMAIN-SUFFIX,youporn.com <= youporn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,ypncdn.com
+KEEP DOMAIN-SUFFIX,spankbang.com <= spankbang.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,spankbang.party
+DROP no-gfwlist-match: DOMAIN-SUFFIX,spankcdn.net
+KEEP DOMAIN-SUFFIX,eporner.com <= eporner.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,epornercdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,txxx.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,txxx.tube
+KEEP DOMAIN-SUFFIX,tnaflix.com <= tnaflix.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,nuvid.com
+KEEP DOMAIN-SUFFIX,beeg.com <= beeg.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gotporn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,drtuber.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,porntrex.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,porntube.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,porn.com
+KEEP DOMAIN-SUFFIX,chaturbate.com <= chaturbate.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,highwebmedia.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bongacams.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bongacamscdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cam4.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cam4cdn.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,myfreecams.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,mfcimg.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,livejasmin.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,jasmin.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,onlyfans.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,of.tv
+DROP no-gfwlist-match: DOMAIN-SUFFIX,fansly.com
+KEEP DOMAIN-SUFFIX,javdb.com <= javdb.com
+KEEP DOMAIN-SUFFIX,javbus.com <= javbus.com
+KEEP DOMAIN-SUFFIX,javlibrary.com <= javlibrary.com
+KEEP DOMAIN-SUFFIX,thisav.com <= thisav.com
+KEEP DOMAIN-SUFFIX,netflav.com <= netflav.com
+KEEP DOMAIN-SUFFIX,avgle.com <= avgle.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,fc2.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,fc2club.com
+KEEP DOMAIN-SUFFIX,hanime.tv <= hanime.tv
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hentaigasm.com
+KEEP DOMAIN-SUFFIX,nhentai.net <= nhentai.net
+KEEP DOMAIN-SUFFIX,rule34.xxx <= rule34.xxx
+KEEP DOMAIN-SUFFIX,rule34video.com <= rule34video.com
+KEEP DOMAIN-SUFFIX,gelbooru.com <= gelbooru.com
+KEEP DOMAIN-SUFFIX,danbooru.donmai.us <= danbooru.donmai.us

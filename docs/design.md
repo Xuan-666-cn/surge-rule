@@ -7,7 +7,11 @@
 核心思想：
 
 ```text
-源规则 rules/
+候选规则 candidates/
+    ↓
+GFWList 筛选 scripts/filter-blocked.js
+    ↓
+被墙规则 rules/
     ↓
 构建脚本 scripts/
     ↓
@@ -20,14 +24,28 @@ Surge、Clash、Quantumult X、Shadowrocket 的完整配置格式不同，但它
 
 因此本项目把规则拆成两部分：
 
-- 源规则：维护匹配条件，例如 `DOMAIN-SUFFIX,openai.com`
+- 候选规则：维护匹配条件，例如 `DOMAIN-SUFFIX,openai.com`
+- 被墙规则：只保留 GFWList 命中的候选域名
 - 客户端配置：决定命中规则后使用哪个策略
 
 这样可以最大程度复用同一批规则。
 
-## 统一源规则格式
+## 阻断证据策略
 
-源规则采用接近 Surge、Clash classical、Shadowrocket 的通用写法。
+`candidates/` 保存服务域名候选全集，`rules/` 不再手动编辑，而是由 `scripts/filter-blocked.js` 根据 `data/gfwlist.txt` 生成。
+
+筛选逻辑：
+
+- 命中 GFWList 的域名进入 `rules/`。
+- 未命中的域名保留在 `candidates/`，并记录到 `reports/*.report.txt`。
+- `dist/` 只从 `rules/` 生成。
+- IP 不从 DNS 当前解析结果生成。只有官方明确发布固定 IP 段，才考虑写入规则。
+
+这套逻辑表示“公开阻断证据命中”，不是一次性的 DNS 解析结果，也不是仅按服务归属整理。
+
+## 统一规则格式
+
+候选规则和被墙规则都采用接近 Surge、Clash classical、Shadowrocket 的通用写法。
 
 优先使用：
 
@@ -40,7 +58,7 @@ IP-CIDR6,2606:4700::/32
 GEOIP,CN
 ```
 
-暂不在源规则中使用：
+暂不在候选规则和被墙规则中使用：
 
 ```text
 FINAL
@@ -66,7 +84,7 @@ HOST-SUFFIX,example.com
 HOST-KEYWORD,example
 ```
 
-如果实测 Quantumult X 可以直接订阅 `DOMAIN-*` 写法，则 `dist/quantumultx/` 可以直接复用源规则。
+如果实测 Quantumult X 可以直接订阅 `DOMAIN-*` 写法，则 `dist/quantumultx/` 可以直接复用筛选后的规则。
 
 如果不能兼容，则构建脚本只做轻量转换：
 
@@ -109,7 +127,6 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 以下分类暂不放入仓库，等实际整理完成后再新增：
 
 ```text
-ai.list
 apple.list
 direct.list
 lan.list
@@ -123,7 +140,8 @@ streaming.list
 
 - 规则文件使用小写英文。
 - 文件后缀使用 `.list`。
-- 源规则放在 `rules/`。
+- 候选规则放在 `candidates/`。
+- GFWList 命中的规则放在 `rules/`。
 - 生成结果放在 `dist/<client>/`。
 - 一行只写一条规则。
 - 注释使用 `#`。

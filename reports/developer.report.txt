@@ -1,0 +1,55 @@
+KEEP DOMAIN-SUFFIX,github.com <= github.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,github.dev
+KEEP DOMAIN-SUFFIX,github.io <= github.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,githubapp.com
+KEEP DOMAIN-SUFFIX,githubassets.com <= githubassets.com
+KEEP DOMAIN-SUFFIX,githubusercontent.com <= githubusercontent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,ghcr.io
+KEEP DOMAIN-SUFFIX,actions.githubusercontent.com <= githubusercontent.com
+KEEP DOMAIN-SUFFIX,objects.githubusercontent.com <= githubusercontent.com
+KEEP DOMAIN-SUFFIX,objects-origin.githubusercontent.com <= githubusercontent.com
+KEEP DOMAIN-SUFFIX,github-releases.githubusercontent.com <= githubusercontent.com
+KEEP DOMAIN-SUFFIX,github-registry-files.githubusercontent.com <= githubusercontent.com
+KEEP DOMAIN-SUFFIX,release-assets.githubusercontent.com <= githubusercontent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,default.exp-tas.com
+KEEP DOMAIN-SUFFIX,gitlab.com <= about.gitlab.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gitlab-static.net
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bitbucket.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bitbucket.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,atlassian.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,atlassian.net
+DROP no-gfwlist-match: DOMAIN-SUFFIX,brew.sh
+KEEP DOMAIN-SUFFIX,docker.com <= docker.com
+KEEP DOMAIN-SUFFIX,docker.io <= docker.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,dockerhub.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,python.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pypi.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pythonhosted.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,nodejs.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,npmjs.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,npmjs.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pnpm.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,yarnpkg.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,go.dev
+KEEP DOMAIN-SUFFIX,golang.org <= golang.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,rust-lang.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,rustup.rs
+DROP no-gfwlist-match: DOMAIN-SUFFIX,crates.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,ruby-lang.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,ruby-doc.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,rubygems.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,maven.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,central.sonatype.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,sonatype.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gradle.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gradle.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,jetbrains.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,visualstudio.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,vscode.dev
+DROP no-gfwlist-match: DOMAIN-SUFFIX,vscode-cdn.net
+DROP no-gfwlist-match: DOMAIN-SUFFIX,vsassets.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hashicorp.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,terraform.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,anaconda.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,anaconda.org
+DROP no-gfwlist-match: DOMAIN-SUFFIX,conda-forge.org

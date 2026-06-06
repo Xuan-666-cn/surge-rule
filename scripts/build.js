@@ -10,6 +10,15 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
+function cleanClientDir(dir) {
+  ensureDir(dir);
+  for (const file of fs.readdirSync(dir)) {
+    if (file.endsWith(".list")) {
+      fs.unlinkSync(path.join(dir, file));
+    }
+  }
+}
+
 function readRuleFiles() {
   return fs
     .readdirSync(rulesDir)
@@ -37,7 +46,7 @@ function toQuantumultX(content) {
 
 function build() {
   for (const client of clients) {
-    ensureDir(path.join(distDir, client));
+    cleanClientDir(path.join(distDir, client));
   }
 
   for (const file of readRuleFiles()) {
@@ -53,4 +62,3 @@ function build() {
 }
 
 build();
-

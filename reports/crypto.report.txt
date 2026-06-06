@@ -1,0 +1,47 @@
+KEEP DOMAIN-SUFFIX,htx.com <= htx.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,htx-inc.com
+KEEP DOMAIN-SUFFIX,huobi.com <= huobi.com
+KEEP DOMAIN-SUFFIX,huobi.pro <= huobi.pro
+KEEP DOMAIN-SUFFIX,binance.com <= binance.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,binance.us
+DROP no-gfwlist-match: DOMAIN-SUFFIX,binance.info
+DROP no-gfwlist-match: DOMAIN-SUFFIX,binancefuture.com
+KEEP DOMAIN-SUFFIX,bnbstatic.com <= bnbstatic.com
+KEEP DOMAIN-SUFFIX,bybit.com <= bybit.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bybitglobal.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.global
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.kz
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bytick.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bybick.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.exchange
+DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.app
+DROP no-gfwlist-match: DOMAIN-SUFFIX,coinglass.com
+KEEP DOMAIN-SUFFIX,bitget.com <= bitget.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bitgetimg.com
+KEEP DOMAIN-SUFFIX,polymarket.com <= polymarket.com
+KEEP DOMAIN-SUFFIX,kraken.com <= kraken.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,krak.app
+KEEP DOMAIN-SUFFIX,metamask.io <= metamask.io
+KEEP DOMAIN-SUFFIX,infura.io <= infura.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,consensys.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,consensys.net
+DROP no-gfwlist-match: DOMAIN-SUFFIX,safepal.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,safepal.io
+KEEP DOMAIN-SUFFIX,okx.com <= okx.com
+KEEP DOMAIN-SUFFIX,coinbase.com <= coinbase.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,coinbasewallet.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,coinbasecloud.dev
+KEEP DOMAIN-SUFFIX,kucoin.com <= kucoin.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,kucoin.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,kucoin.cc
+DROP no-gfwlist-match: DOMAIN-SUFFIX,mexc.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,mexc.fm
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gate.com
+KEEP DOMAIN-SUFFIX,gate.io <= gate.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gate.ac
+DROP no-gfwlist-match: DOMAIN-SUFFIX,crypto.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,crypto.org
+KEEP DOMAIN-SUFFIX,bitfinex.com <= bitfinex.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,deribit.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gemini.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bitstamp.net

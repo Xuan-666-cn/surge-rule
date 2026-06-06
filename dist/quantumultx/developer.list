@@ -1,80 +1,21 @@
 # GitHub
 HOST-SUFFIX,github.com
-HOST-SUFFIX,github.dev
 HOST-SUFFIX,github.io
-HOST-SUFFIX,githubapp.com
 HOST-SUFFIX,githubassets.com
 HOST-SUFFIX,githubusercontent.com
-HOST-SUFFIX,ghcr.io
 HOST-SUFFIX,actions.githubusercontent.com
 HOST-SUFFIX,objects.githubusercontent.com
 HOST-SUFFIX,objects-origin.githubusercontent.com
 HOST-SUFFIX,github-releases.githubusercontent.com
 HOST-SUFFIX,github-registry-files.githubusercontent.com
 HOST-SUFFIX,release-assets.githubusercontent.com
-HOST-SUFFIX,default.exp-tas.com
 
 # GitLab / Bitbucket
 HOST-SUFFIX,gitlab.com
-HOST-SUFFIX,gitlab-static.net
-HOST-SUFFIX,bitbucket.org
-HOST-SUFFIX,bitbucket.io
-HOST-SUFFIX,atlassian.com
-HOST-SUFFIX,atlassian.net
-
-# Homebrew
-HOST-SUFFIX,brew.sh
 
 # Docker
 HOST-SUFFIX,docker.com
 HOST-SUFFIX,docker.io
-HOST-SUFFIX,dockerhub.com
-
-# Python / PyPI
-HOST-SUFFIX,python.org
-HOST-SUFFIX,pypi.org
-HOST-SUFFIX,pythonhosted.org
-
-# Node.js / npm / pnpm / Yarn
-HOST-SUFFIX,nodejs.org
-HOST-SUFFIX,npmjs.com
-HOST-SUFFIX,npmjs.org
-HOST-SUFFIX,pnpm.io
-HOST-SUFFIX,yarnpkg.com
 
 # Go
-HOST-SUFFIX,go.dev
 HOST-SUFFIX,golang.org
-
-# Rust / Cargo
-HOST-SUFFIX,rust-lang.org
-HOST-SUFFIX,rustup.rs
-HOST-SUFFIX,crates.io
-
-# Ruby / RubyGems
-HOST-SUFFIX,ruby-lang.org
-HOST-SUFFIX,ruby-doc.org
-HOST-SUFFIX,rubygems.org
-
-# Java / Maven / Gradle
-HOST-SUFFIX,maven.org
-HOST-SUFFIX,central.sonatype.com
-HOST-SUFFIX,sonatype.com
-HOST-SUFFIX,gradle.org
-HOST-SUFFIX,gradle.com
-
-# JetBrains / Visual Studio Code
-HOST-SUFFIX,jetbrains.com
-HOST-SUFFIX,visualstudio.com
-HOST-SUFFIX,vscode.dev
-HOST-SUFFIX,vscode-cdn.net
-HOST-SUFFIX,vsassets.io
-
-# HashiCorp / Terraform
-HOST-SUFFIX,hashicorp.com
-HOST-SUFFIX,terraform.io
-
-# Anaconda / Conda
-HOST-SUFFIX,anaconda.com
-HOST-SUFFIX,anaconda.org
-HOST-SUFFIX,conda-forge.org

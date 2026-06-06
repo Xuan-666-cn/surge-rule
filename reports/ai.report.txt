@@ -1,0 +1,126 @@
+KEEP DOMAIN-SUFFIX,openai.com <= openai.com
+KEEP DOMAIN-SUFFIX,chatgpt.com <= chatgpt.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,oaistatic.com
+KEEP DOMAIN-SUFFIX,oaiusercontent.com <= files.oaiusercontent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,openaiusercontent.com
+KEEP DOMAIN-SUFFIX,anthropic.com <= anthropic.com
+KEEP DOMAIN-SUFFIX,claude.ai <= claude.ai
+KEEP DOMAIN,gemini.google.com <= google.com
+KEEP DOMAIN-SUFFIX,ai.google.dev <= google.dev
+KEEP DOMAIN-SUFFIX,generativelanguage.googleapis.com <= googleapis.com
+KEEP DOMAIN-SUFFIX,aiplatform.googleapis.com <= googleapis.com
+KEEP DOMAIN-SUFFIX,x.ai <= x.ai
+KEEP DOMAIN-SUFFIX,grok.com <= grok.com
+KEEP DOMAIN-SUFFIX,grok.x.ai <= x.ai
+DROP no-gfwlist-match: DOMAIN,chat.bing.com
+DROP no-gfwlist-match: DOMAIN,edgeservices.bing.com
+KEEP DOMAIN,copilot.microsoft.com <= copilot.microsoft.com
+DROP no-gfwlist-match: DOMAIN,copilot.cloud.microsoft
+KEEP DOMAIN-SUFFIX,bing.com <= global.bing.com
+KEEP DOMAIN-SUFFIX,githubcopilot.com <= githubcopilot.com
+KEEP DOMAIN-SUFFIX,perplexity.ai <= perplexity.ai
+KEEP DOMAIN-SUFFIX,mistral.ai <= mistral.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,deepseek.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,deepseek.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cohere.com
+KEEP DOMAIN,ai.meta.com <= meta.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,meta.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,llama.com
+KEEP DOMAIN-SUFFIX,huggingface.co <= huggingface.co
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hf.co
+KEEP DOMAIN-SUFFIX,poe.com <= poe.com
+KEEP DOMAIN-SUFFIX,character.ai <= character.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,c.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,replika.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pi.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,inflection.ai
+KEEP DOMAIN-SUFFIX,you.com <= you.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,phind.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,kagi.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cursor.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cursor.sh
+DROP no-gfwlist-match: DOMAIN-SUFFIX,windsurf.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,codeium.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,tabnine.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,sourcegraph.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cody.dev
+DROP no-gfwlist-match: DOMAIN-SUFFIX,replit.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,replit.dev
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bolt.new
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stackblitz.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,lovable.dev
+DROP no-gfwlist-match: DOMAIN-SUFFIX,v0.dev
+DROP no-gfwlist-match: DOMAIN-SUFFIX,exa.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,consensus.app
+DROP no-gfwlist-match: DOMAIN-SUFFIX,scite.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,elicit.com
+KEEP DOMAIN-SUFFIX,notebooklm.google.com <= google.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,midjourney.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stability.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stablediffusionweb.com
+KEEP DOMAIN-SUFFIX,leonardo.ai <= leonardo.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,ideogram.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,clipdrop.co
+DROP no-gfwlist-match: DOMAIN-SUFFIX,krea.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,freepik.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,firefly.adobe.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,runwayml.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,runwayml.cloud
+DROP no-gfwlist-match: DOMAIN-SUFFIX,pika.art
+DROP no-gfwlist-match: DOMAIN-SUFFIX,lumalabs.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,dream-machine.lumalabs.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,klingai.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,klingaistudio.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hailuoai.video
+DROP no-gfwlist-match: DOMAIN-SUFFIX,minimax.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,elevenlabs.io
+KEEP DOMAIN-SUFFIX,suno.com <= suno.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,udio.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,murf.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,play.ht
+DROP no-gfwlist-match: DOMAIN-SUFFIX,descript.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,heygen.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,synthesia.io
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gamma.app
+DROP no-gfwlist-match: DOMAIN-SUFFIX,tome.app
+DROP no-gfwlist-match: DOMAIN-SUFFIX,jasper.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,copy.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,grammarly.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,notion.so
+DROP no-gfwlist-match: DOMAIN-SUFFIX,replicate.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,replicate.delivery
+DROP no-gfwlist-match: DOMAIN-SUFFIX,fireworks.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,together.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,groq.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,groqcloud.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,qwen.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,tongyi.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,dashscope.aliyuncs.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,modelscope.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,kimi.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,moonshot.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,moonshot.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,doubao.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,volcengine.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,volces.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,yiyan.baidu.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,aip.baidubce.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,qianfan.cloud.baidu.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hunyuan.tencent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,yuanbao.tencent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,cloud.tencent.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,zhipuai.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,chatglm.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,bigmodel.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,minimaxi.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,abab.chat
+DROP no-gfwlist-match: DOMAIN-SUFFIX,hailuoai.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,baichuan-ai.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,01.ai
+DROP no-gfwlist-match: DOMAIN-SUFFIX,lingyiwanwu.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,stepfun.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,xfyun.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,sparkdesk.xfyun.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,sensetime.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,sensenova.cn
+DROP no-gfwlist-match: DOMAIN-SUFFIX,tiangong.cn

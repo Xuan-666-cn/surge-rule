@@ -1,86 +1,39 @@
 # HTX / Huobi
 HOST-SUFFIX,htx.com
-HOST-SUFFIX,htx-inc.com
 HOST-SUFFIX,huobi.com
 HOST-SUFFIX,huobi.pro
 
 # Binance
 HOST-SUFFIX,binance.com
-HOST-SUFFIX,binance.us
-HOST-SUFFIX,binance.info
-HOST-SUFFIX,binancefuture.com
 HOST-SUFFIX,bnbstatic.com
 
 # Bybit
 HOST-SUFFIX,bybit.com
-HOST-SUFFIX,bybitglobal.com
-HOST-SUFFIX,bybit.global
-HOST-SUFFIX,bybit.kz
-HOST-SUFFIX,bytick.com
-HOST-SUFFIX,bybick.com
-
-# Backpack
-HOST-SUFFIX,backpack.exchange
-HOST-SUFFIX,backpack.app
-
-# CoinGlass
-HOST-SUFFIX,coinglass.com
 
 # Bitget
 HOST-SUFFIX,bitget.com
-HOST-SUFFIX,bitgetimg.com
 
 # Polymarket
 HOST-SUFFIX,polymarket.com
 
 # Kraken
 HOST-SUFFIX,kraken.com
-HOST-SUFFIX,krak.app
 
 # MetaMask / Infura
 HOST-SUFFIX,metamask.io
 HOST-SUFFIX,infura.io
-HOST-SUFFIX,consensys.io
-HOST-SUFFIX,consensys.net
-
-# SafePal
-HOST-SUFFIX,safepal.com
-HOST-SUFFIX,safepal.io
 
 # OKX
 HOST-SUFFIX,okx.com
 
 # Coinbase
 HOST-SUFFIX,coinbase.com
-HOST-SUFFIX,coinbasewallet.com
-HOST-SUFFIX,coinbasecloud.dev
 
 # KuCoin
 HOST-SUFFIX,kucoin.com
-HOST-SUFFIX,kucoin.io
-HOST-SUFFIX,kucoin.cc
-
-# MEXC
-HOST-SUFFIX,mexc.com
-HOST-SUFFIX,mexc.fm
 
 # Gate
-HOST-SUFFIX,gate.com
 HOST-SUFFIX,gate.io
-HOST-SUFFIX,gate.ac
-
-# Crypto.com
-HOST-SUFFIX,crypto.com
-HOST-SUFFIX,crypto.org
 
 # Bitfinex
 HOST-SUFFIX,bitfinex.com
-
-# Deribit
-HOST-SUFFIX,deribit.com
-
-# Gemini
-HOST-SUFFIX,gemini.com
-
-# Bitstamp
-HOST-SUFFIX,bitstamp.net

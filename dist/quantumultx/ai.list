@@ -1,9 +1,7 @@
 # OpenAI / ChatGPT / Codex
 HOST-SUFFIX,openai.com
 HOST-SUFFIX,chatgpt.com
-HOST-SUFFIX,oaistatic.com
 HOST-SUFFIX,oaiusercontent.com
-HOST-SUFFIX,openaiusercontent.com
 
 # Anthropic / Claude
 HOST-SUFFIX,anthropic.com
@@ -21,10 +19,7 @@ HOST-SUFFIX,grok.com
 HOST-SUFFIX,grok.x.ai
 
 # Microsoft Copilot
-HOST,chat.bing.com
-HOST,edgeservices.bing.com
 HOST,copilot.microsoft.com
-HOST,copilot.cloud.microsoft
 HOST-SUFFIX,bing.com
 
 # GitHub Copilot
@@ -36,152 +31,26 @@ HOST-SUFFIX,perplexity.ai
 # Mistral / Le Chat
 HOST-SUFFIX,mistral.ai
 
-# DeepSeek
-HOST-SUFFIX,deepseek.com
-HOST-SUFFIX,deepseek.ai
-
-# Cohere
-HOST-SUFFIX,cohere.com
-
 # Meta AI / Llama
 HOST,ai.meta.com
-HOST-SUFFIX,meta.ai
-HOST-SUFFIX,llama.com
 
 # Hugging Face
 HOST-SUFFIX,huggingface.co
-HOST-SUFFIX,hf.co
 
 # Poe
 HOST-SUFFIX,poe.com
 
 # Character.AI / Replika / Pi
 HOST-SUFFIX,character.ai
-HOST-SUFFIX,c.ai
-HOST-SUFFIX,replika.ai
-HOST-SUFFIX,pi.ai
-HOST-SUFFIX,inflection.ai
 
 # You.com / Phind / Kagi
 HOST-SUFFIX,you.com
-HOST-SUFFIX,phind.com
-HOST-SUFFIX,kagi.com
-
-# AI coding tools
-HOST-SUFFIX,cursor.com
-HOST-SUFFIX,cursor.sh
-HOST-SUFFIX,windsurf.com
-HOST-SUFFIX,codeium.com
-HOST-SUFFIX,tabnine.com
-HOST-SUFFIX,sourcegraph.com
-HOST-SUFFIX,cody.dev
-HOST-SUFFIX,replit.com
-HOST-SUFFIX,replit.dev
-HOST-SUFFIX,bolt.new
-HOST-SUFFIX,stackblitz.com
-HOST-SUFFIX,lovable.dev
-HOST-SUFFIX,v0.dev
 
 # AI search / knowledge / research
-HOST-SUFFIX,exa.ai
-HOST-SUFFIX,consensus.app
-HOST-SUFFIX,scite.ai
-HOST-SUFFIX,elicit.com
 HOST-SUFFIX,notebooklm.google.com
 
 # Image generation
-HOST-SUFFIX,midjourney.com
-HOST-SUFFIX,stability.ai
-HOST-SUFFIX,stablediffusionweb.com
 HOST-SUFFIX,leonardo.ai
-HOST-SUFFIX,ideogram.ai
-HOST-SUFFIX,clipdrop.co
-HOST-SUFFIX,krea.ai
-HOST-SUFFIX,freepik.com
-HOST-SUFFIX,firefly.adobe.com
-
-# Video generation
-HOST-SUFFIX,runwayml.com
-HOST-SUFFIX,runwayml.cloud
-HOST-SUFFIX,pika.art
-HOST-SUFFIX,lumalabs.ai
-HOST-SUFFIX,dream-machine.lumalabs.ai
-HOST-SUFFIX,klingai.com
-HOST-SUFFIX,klingaistudio.com
-HOST-SUFFIX,hailuoai.video
-HOST-SUFFIX,minimax.io
 
 # Audio / voice / music generation
-HOST-SUFFIX,elevenlabs.io
 HOST-SUFFIX,suno.com
-HOST-SUFFIX,udio.com
-HOST-SUFFIX,murf.ai
-HOST-SUFFIX,play.ht
-HOST-SUFFIX,descript.com
-
-# AI avatars / presentation / writing
-HOST-SUFFIX,heygen.com
-HOST-SUFFIX,synthesia.io
-HOST-SUFFIX,gamma.app
-HOST-SUFFIX,tome.app
-HOST-SUFFIX,jasper.ai
-HOST-SUFFIX,copy.ai
-HOST-SUFFIX,grammarly.com
-HOST-SUFFIX,notion.so
-
-# Replicate / Fireworks / Together / Groq
-HOST-SUFFIX,replicate.com
-HOST-SUFFIX,replicate.delivery
-HOST-SUFFIX,fireworks.ai
-HOST-SUFFIX,together.ai
-HOST-SUFFIX,groq.com
-HOST-SUFFIX,groqcloud.com
-
-# Alibaba Qwen / ModelScope
-HOST-SUFFIX,qwen.ai
-HOST-SUFFIX,tongyi.com
-HOST-SUFFIX,dashscope.aliyuncs.com
-HOST-SUFFIX,modelscope.cn
-
-# Moonshot / Kimi
-HOST-SUFFIX,kimi.com
-HOST-SUFFIX,moonshot.cn
-HOST-SUFFIX,moonshot.ai
-
-# ByteDance Doubao / Volcano Ark
-HOST-SUFFIX,doubao.com
-HOST-SUFFIX,volcengine.com
-HOST-SUFFIX,volces.com
-
-# Baidu ERNIE / Wenxin
-HOST-SUFFIX,yiyan.baidu.com
-HOST-SUFFIX,aip.baidubce.com
-HOST-SUFFIX,qianfan.cloud.baidu.com
-
-# Tencent Hunyuan / Yuanbao
-HOST-SUFFIX,hunyuan.tencent.com
-HOST-SUFFIX,yuanbao.tencent.com
-HOST-SUFFIX,cloud.tencent.com
-
-# Zhipu / ChatGLM
-HOST-SUFFIX,zhipuai.cn
-HOST-SUFFIX,chatglm.cn
-HOST-SUFFIX,bigmodel.cn
-
-# MiniMax / Hailuo
-HOST-SUFFIX,minimaxi.com
-HOST-SUFFIX,abab.chat
-HOST-SUFFIX,hailuoai.com
-
-# Baichuan / 01.AI / StepFun
-HOST-SUFFIX,baichuan-ai.com
-HOST-SUFFIX,01.ai
-HOST-SUFFIX,lingyiwanwu.com
-HOST-SUFFIX,stepfun.com
-
-# iFlytek Spark / SenseNova / Tiangong
-HOST-SUFFIX,xfyun.cn
-HOST-SUFFIX,sparkdesk.xfyun.cn
-HOST-SUFFIX,sensetime.com
-HOST-SUFFIX,sensenova.cn
-HOST-SUFFIX,tiangong.cn

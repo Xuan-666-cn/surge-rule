@@ -4,8 +4,8 @@
   "private": true,
   "description": "Unified proxy routing rule sets.",
   "scripts": {
+    "filter:blocked": "node scripts/filter-blocked.js",
     "build": "node scripts/build.js",
     "lint": "node scripts/lint.js"
   }
 }
-

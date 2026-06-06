@@ -1,0 +1,32 @@
+KEEP DOMAIN-SUFFIX,google.com <= google.com
+KEEP DOMAIN-SUFFIX,google.com.hk <= google.com.hk
+KEEP DOMAIN-SUFFIX,google.com.tw <= google.com.tw
+KEEP DOMAIN-SUFFIX,google.co.jp <= google.co.jp
+KEEP DOMAIN-SUFFIX,google.co.uk <= google.co.uk
+KEEP DOMAIN-SUFFIX,google.com.sg <= google.com.sg
+KEEP DOMAIN-SUFFIX,gmail.com <= gmail.com
+KEEP DOMAIN-SUFFIX,googlemail.com <= googlemail.com
+KEEP DOMAIN-SUFFIX,googlevideo.com <= googlevideo.com
+KEEP DOMAIN-SUFFIX,googleapis.com <= googleapis.com
+KEEP DOMAIN-SUFFIX,gstatic.com <= gstatic.com
+KEEP DOMAIN-SUFFIX,googleusercontent.com <= googleusercontent.com
+KEEP DOMAIN-SUFFIX,ggpht.com <= ggpht.com
+KEEP DOMAIN-SUFFIX,ytimg.com <= ytimg.com
+KEEP DOMAIN-SUFFIX,youtube.com <= youtube.com
+KEEP DOMAIN-SUFFIX,youtube-nocookie.com <= youtube-nocookie.com
+KEEP DOMAIN-SUFFIX,youtu.be <= youtu.be
+KEEP DOMAIN-SUFFIX,youtubeeducation.com <= youtubeeducation.com
+KEEP DOMAIN-SUFFIX,youtubekids.com <= youtubekids.com
+KEEP DOMAIN-SUFFIX,withyoutube.com <= withyoutube.com
+KEEP DOMAIN-SUFFIX,withgoogle.com <= withgoogle.com
+KEEP DOMAIN-SUFFIX,blogger.com <= blogger.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.hk
+DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.jp
+DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.tw
+KEEP DOMAIN-SUFFIX,googleblog.com <= googleblog.com
+KEEP DOMAIN-SUFFIX,googlesource.com <= googlesource.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,googletagmanager.com
+KEEP DOMAIN-SUFFIX,gvt1.com <= gvt1.com
+DROP no-gfwlist-match: DOMAIN-SUFFIX,gvt2.com
+KEEP DOMAIN-SUFFIX,1e100.net <= 1e100.net

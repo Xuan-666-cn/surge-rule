@@ -1,0 +1,187 @@
+# OpenAI / ChatGPT / Codex
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiusercontent.com
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# Google Gemini
+DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.ai
+
+# Microsoft Copilot
+DOMAIN,chat.bing.com
+DOMAIN,edgeservices.bing.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
+DOMAIN-SUFFIX,bing.com
+
+# GitHub Copilot
+DOMAIN-SUFFIX,githubcopilot.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# Mistral / Le Chat
+DOMAIN-SUFFIX,mistral.ai
+
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.ai
+
+# Cohere
+DOMAIN-SUFFIX,cohere.com
+
+# Meta AI / Llama
+DOMAIN,ai.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,llama.com
+
+# Hugging Face
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# Poe
+DOMAIN-SUFFIX,poe.com
+
+# Character.AI / Replika / Pi
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,c.ai
+DOMAIN-SUFFIX,replika.ai
+DOMAIN-SUFFIX,pi.ai
+DOMAIN-SUFFIX,inflection.ai
+
+# You.com / Phind / Kagi
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,kagi.com
+
+# AI coding tools
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,sourcegraph.com
+DOMAIN-SUFFIX,cody.dev
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,replit.dev
+DOMAIN-SUFFIX,bolt.new
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,lovable.dev
+DOMAIN-SUFFIX,v0.dev
+
+# AI search / knowledge / research
+DOMAIN-SUFFIX,exa.ai
+DOMAIN-SUFFIX,consensus.app
+DOMAIN-SUFFIX,scite.ai
+DOMAIN-SUFFIX,elicit.com
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# Image generation
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stablediffusionweb.com
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,freepik.com
+DOMAIN-SUFFIX,firefly.adobe.com
+
+# Video generation
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runwayml.cloud
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,dream-machine.lumalabs.ai
+DOMAIN-SUFFIX,klingai.com
+DOMAIN-SUFFIX,klingaistudio.com
+DOMAIN-SUFFIX,hailuoai.video
+DOMAIN-SUFFIX,minimax.io
+
+# Audio / voice / music generation
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,udio.com
+DOMAIN-SUFFIX,murf.ai
+DOMAIN-SUFFIX,play.ht
+DOMAIN-SUFFIX,descript.com
+
+# AI avatars / presentation / writing
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,synthesia.io
+DOMAIN-SUFFIX,gamma.app
+DOMAIN-SUFFIX,tome.app
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,copy.ai
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,notion.so
+
+# Replicate / Fireworks / Together / Groq
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,groqcloud.com
+
+# Alibaba Qwen / ModelScope
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,dashscope.aliyuncs.com
+DOMAIN-SUFFIX,modelscope.cn
+
+# Moonshot / Kimi
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,moonshot.ai
+
+# ByteDance Doubao / Volcano Ark
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+
+# Baidu ERNIE / Wenxin
+DOMAIN-SUFFIX,yiyan.baidu.com
+DOMAIN-SUFFIX,aip.baidubce.com
+DOMAIN-SUFFIX,qianfan.cloud.baidu.com
+
+# Tencent Hunyuan / Yuanbao
+DOMAIN-SUFFIX,hunyuan.tencent.com
+DOMAIN-SUFFIX,yuanbao.tencent.com
+DOMAIN-SUFFIX,cloud.tencent.com
+
+# Zhipu / ChatGLM
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,bigmodel.cn
+
+# MiniMax / Hailuo
+DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,abab.chat
+DOMAIN-SUFFIX,hailuoai.com
+
+# Baichuan / 01.AI / StepFun
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,01.ai
+DOMAIN-SUFFIX,lingyiwanwu.com
+DOMAIN-SUFFIX,stepfun.com
+
+# iFlytek Spark / SenseNova / Tiangong
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,sparkdesk.xfyun.cn
+DOMAIN-SUFFIX,sensetime.com
+DOMAIN-SUFFIX,sensenova.cn
+DOMAIN-SUFFIX,tiangong.cn
