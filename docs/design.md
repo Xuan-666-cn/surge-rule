@@ -100,6 +100,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 
 成人内容、成人直播和成人视频站点，包括用户指定站点以及常见热门成人内容平台。
 
+### ai.list
+
+主流 AI 服务和大模型平台，包括 OpenAI/ChatGPT/Codex、Anthropic/Claude、Google Gemini、xAI/Grok、Microsoft Copilot、GitHub Copilot、Perplexity、Mistral、DeepSeek、Cohere、Meta AI/Llama、Hugging Face、Poe，以及常见代码、图像、视频、音频、写作和国内大模型平台。
+
 ## 待整理分类
 
 以下分类暂不放入仓库，等实际整理完成后再新增：

@@ -42,6 +42,7 @@ rules/developer.list
 rules/crypto.list
 rules/social.list
 rules/adult.list
+rules/ai.list
 ```
 
 其他分类会在实际整理完成后再加入仓库。
