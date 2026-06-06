@@ -80,9 +80,9 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 ## 当前规则分类
 
-### github.list
+### developer.list
 
-GitHub 服务，包括 github.com、GitHub Pages、GitHub Assets、GitHub user content、GitHub Packages、GitHub Container Registry、GitHub Actions 相关域名。
+开发工具和代码服务，包括 GitHub、GitLab、Bitbucket、Homebrew、Docker、Python/PyPI、Node/npm、Go、Rust/Cargo、RubyGems、Maven、Gradle、JetBrains、Visual Studio Code、HashiCorp/Terraform、Anaconda/Conda。
 
 ### google.list
 

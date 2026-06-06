@@ -38,7 +38,7 @@ DOMAIN-SUFFIX,anthropic.com
 
 ```text
 rules/google.list
-rules/github.list
+rules/developer.list
 rules/crypto.list
 rules/social.list
 ```
