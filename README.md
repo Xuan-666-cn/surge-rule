@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,anthropic.com
 ```text
 rules/google.list
 rules/github.list
+rules/social.list
 ```
 
 其他分类会在实际整理完成后再加入仓库。

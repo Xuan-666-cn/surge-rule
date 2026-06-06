@@ -88,6 +88,10 @@ GitHub 服务，包括 github.com、GitHub Pages、GitHub Assets、GitHub user c
 
 Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、Google Video、gstatic、googleusercontent 等。
 
+### social.list
+
+通讯和社交服务，包括 Telegram、LINE、X/Twitter、WhatsApp、Signal、Discord、Facebook、Instagram、Threads、Reddit、Pinterest、Tumblr、Snapchat、Viber、KakaoTalk、Mastodon、Medium、Quora。
+
 ## 待整理分类
 
 以下分类暂不放入仓库，等实际整理完成后再新增：
@@ -101,7 +105,6 @@ microsoft.list
 proxy.list
 reject.list
 streaming.list
-telegram.list
 ```
 
 ## 命名约定
