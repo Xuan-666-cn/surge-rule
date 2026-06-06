@@ -10,6 +10,9 @@ HOST-SUFFIX,bnbstatic.com
 # Bybit
 HOST-SUFFIX,bybit.com
 
+# Backpack
+HOST-KEYWORD,backpack
+
 # Bitget
 HOST-SUFFIX,bitget.com
 

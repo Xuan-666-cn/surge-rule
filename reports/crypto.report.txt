@@ -13,6 +13,7 @@ DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.global
 DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.kz
 DROP no-gfwlist-match: DOMAIN-SUFFIX,bytick.com
 DROP no-gfwlist-match: DOMAIN-SUFFIX,bybick.com
+KEEP DOMAIN-KEYWORD,backpack <= manual-include
 DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.exchange
 DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.app
 DROP no-gfwlist-match: DOMAIN-SUFFIX,coinglass.com

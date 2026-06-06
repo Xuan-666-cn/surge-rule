@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,bnbstatic.com
 # Bybit
 DOMAIN-SUFFIX,bybit.com
 
+# Backpack
+DOMAIN-KEYWORD,backpack
+
 # Bitget
 DOMAIN-SUFFIX,bitget.com
 
