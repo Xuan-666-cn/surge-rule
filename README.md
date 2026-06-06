@@ -50,6 +50,7 @@ rules/crypto.list
 rules/custom.list
 rules/developer.list
 rules/google.list
+rules/ibkr.list
 rules/social.list
 ```
 

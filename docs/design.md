@@ -119,6 +119,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 
 用户手动确认需要纳入的常用规则。
 
+### ibkr.list
+
+Interactive Brokers / IBKR 相关规则，包括 IBKR Web API、Interactive Brokers 登录/动态页面域名，以及用户确认由 IBKR 页面加载的 Akamai mPulse 域名。
+
 ### adult.list
 
 成人内容、成人直播和成人视频站点，包括用户指定站点以及常见热门成人内容平台。

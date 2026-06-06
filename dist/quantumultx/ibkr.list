@@ -1,0 +1,6 @@
+# Interactive Brokers / IBKR
+HOST,api.ibkr.com
+HOST,ndcdyn.interactivebrokers.com
+
+# Akamai mPulse loaded by IBKR pages
+HOST,c.go-mpulse.net
