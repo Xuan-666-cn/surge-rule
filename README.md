@@ -34,28 +34,22 @@ DOMAIN-SUFFIX,anthropic.com
 
 具体走 `AI`、`PROXY`、`DIRECT` 或其他策略，由各客户端在自己的配置里绑定。
 
-## 源规则分类
+## 当前规则
 
 ```text
-rules/ai.list
-rules/direct.list
-rules/proxy.list
-rules/reject.list
-rules/apple.list
 rules/google.list
-rules/microsoft.list
 rules/github.list
-rules/telegram.list
-rules/streaming.list
-rules/lan.list
 ```
+
+其他分类会在实际整理完成后再加入仓库。
 
 ## 推荐工作流
 
 1. 在 `rules/` 中维护源规则。
-2. 提交到 GitHub 私有仓库。
-3. 后续用脚本生成 `dist/` 下的客户端规则。
-4. 各代理工具订阅 `dist/` 中对应规则集。
+2. 运行 `npm run lint` 检查规则。
+3. 运行 `npm run build` 生成 `dist/` 下的客户端规则。
+4. 提交并推送到 GitHub 私有仓库。
+5. 各代理工具订阅 `dist/` 中对应规则集。
 
 ## 不应提交的内容
 
@@ -65,4 +59,3 @@ rules/lan.list
 - 个人内网域名
 - 家庭公网 IP
 - NAS、路由器、家庭服务地址
-

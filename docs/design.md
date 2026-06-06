@@ -78,31 +78,31 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 这仍然属于规则集转换，不涉及完整客户端配置。
 
-## 规则分类
+## 当前规则分类
 
-### ai.list
+### github.list
 
-AI 服务，包括 OpenAI、ChatGPT、Claude、Gemini、Perplexity、Cursor、Copilot 等。
+GitHub 服务，包括 github.com、GitHub Pages、GitHub Assets、GitHub user content、GitHub Packages、GitHub Container Registry、GitHub Actions 相关域名。
 
-### direct.list
+### google.list
 
-明确需要直连的域名或 IP，例如国内服务、系统连接检查、局域网服务。
+Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、Google Video、gstatic、googleusercontent 等。
 
-### proxy.list
+## 待整理分类
 
-明确需要代理的通用国外服务。
+以下分类暂不放入仓库，等实际整理完成后再新增：
 
-### reject.list
-
-广告、追踪、恶意域名和无意义探测。
-
-### apple.list
-
-Apple 相关服务。Apple 规则需要谨慎维护，因为部分服务适合直连，部分服务可能需要代理。
-
-### streaming.list
-
-流媒体服务，例如 Netflix、Disney+、YouTube、Spotify 等。
+```text
+ai.list
+apple.list
+direct.list
+lan.list
+microsoft.list
+proxy.list
+reject.list
+streaming.list
+telegram.list
+```
 
 ## 命名约定
 
@@ -125,4 +125,3 @@ Apple 相关服务。Apple 规则需要谨慎维护，因为部分服务适合�
 - 私有域名
 - 内网服务地址
 - Token、Cookie、Key
-
