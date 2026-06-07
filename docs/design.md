@@ -125,7 +125,11 @@ Interactive Brokers / IBKR 相关规则，包括 IBKR Web API、Interactive Brok
 
 ### mail.list
 
-国外邮件服务和访问较慢的邮箱相关域名，包括 Gmail、Outlook/Hotmail、Yahoo Mail、Proton Mail、iCloud Mail、Zoho Mail、Fastmail、Tuta/Tutanota 等。
+国外邮件服务和访问较慢的邮箱相关域名，包括 Gmail、Outlook/Hotmail、Yahoo Mail、Proton Mail、Zoho Mail、Fastmail、Tuta/Tutanota 等。
+
+### steam.list
+
+Steam 平台、商店、社区、登录、客户端更新、创意工坊和 Steam 内容分发相关域名。不包含具体游戏厂商或游戏服务器域名。
 
 ### adult.list
 

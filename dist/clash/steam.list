@@ -1,0 +1,18 @@
+# Steam platform
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamserver.net
+
+# Steam CDN on Akamai
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+
+# Valve platform domains used by Steam services
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN-SUFFIX,valve.net

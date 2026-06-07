@@ -53,6 +53,7 @@ rules/google.list
 rules/ibkr.list
 rules/mail.list
 rules/social.list
+rules/steam.list
 ```
 
 其他分类会在实际整理完成后再加入仓库。
