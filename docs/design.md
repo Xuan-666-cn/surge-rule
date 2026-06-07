@@ -123,6 +123,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 
 Interactive Brokers / IBKR 相关规则，包括 IBKR Web API、Interactive Brokers 登录/动态页面域名，以及用户确认由 IBKR 页面加载的 Akamai mPulse 域名。
 
+### mail.list
+
+国外邮件服务和访问较慢的邮箱相关域名，包括 Gmail、Outlook/Hotmail、Yahoo Mail、Proton Mail、iCloud Mail、Zoho Mail、Fastmail、Tuta/Tutanota 等。
+
 ### adult.list
 
 成人内容、成人直播和成人视频站点，包括用户指定站点以及常见热门成人内容平台。

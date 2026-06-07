@@ -1,0 +1,51 @@
+# Gmail
+DOMAIN,mail.google.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+
+# Outlook / Hotmail / Microsoft Mail
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,onmicrosoft.com
+DOMAIN,outlook.office.com
+DOMAIN,outlook.office365.com
+DOMAIN,login.live.com
+
+# Yahoo Mail
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,ymail.com
+DOMAIN-SUFFIX,rocketmail.com
+
+# Proton Mail
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+
+# iCloud Mail
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+
+# Zoho Mail
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zohomail.com
+
+# Fastmail
+DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,messagingengine.com
+
+# Tuta / Tutanota
+DOMAIN-SUFFIX,tuta.com
+DOMAIN-SUFFIX,tutanota.com
+
+# Other international mail providers
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,gmx.com
+DOMAIN-SUFFIX,mail.com
+DOMAIN-SUFFIX,hey.com
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandex.ru
+

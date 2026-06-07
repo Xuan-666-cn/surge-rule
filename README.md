@@ -51,6 +51,7 @@ rules/custom.list
 rules/developer.list
 rules/google.list
 rules/ibkr.list
+rules/mail.list
 rules/social.list
 ```
 
