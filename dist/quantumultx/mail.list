@@ -23,12 +23,6 @@ HOST-SUFFIX,rocketmail.com
 HOST-SUFFIX,proton.me
 HOST-SUFFIX,protonmail.com
 
-# iCloud Mail
-HOST-SUFFIX,icloud.com
-HOST-SUFFIX,icloud-content.com
-HOST-SUFFIX,me.com
-HOST-SUFFIX,mac.com
-
 # Zoho Mail
 HOST-SUFFIX,zoho.com
 HOST-SUFFIX,zohomail.com

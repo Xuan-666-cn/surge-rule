@@ -23,12 +23,6 @@ DOMAIN-SUFFIX,rocketmail.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.com
 
-# iCloud Mail
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mac.com
-
 # Zoho Mail
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zohomail.com
