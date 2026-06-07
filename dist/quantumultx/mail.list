@@ -1,9 +1,16 @@
 # Gmail
 HOST,mail.google.com
+HOST,imap.gmail.com
+HOST,smtp.gmail.com
+HOST,pop.gmail.com
 HOST-SUFFIX,gmail.com
 HOST-SUFFIX,googlemail.com
 
 # Outlook / Hotmail / Microsoft Mail
+HOST,imap-mail.outlook.com
+HOST,smtp-mail.outlook.com
+HOST,pop-mail.outlook.com
+HOST,smtp.office365.com
 HOST-SUFFIX,outlook.com
 HOST-SUFFIX,hotmail.com
 HOST-SUFFIX,live.com
@@ -15,6 +22,9 @@ HOST,outlook.office365.com
 HOST,login.live.com
 
 # Yahoo Mail
+HOST,imap.mail.yahoo.com
+HOST,smtp.mail.yahoo.com
+HOST,pop.mail.yahoo.com
 HOST-SUFFIX,yahoo.com
 HOST-SUFFIX,ymail.com
 HOST-SUFFIX,rocketmail.com
@@ -24,10 +34,16 @@ HOST-SUFFIX,proton.me
 HOST-SUFFIX,protonmail.com
 
 # Zoho Mail
+HOST,imap.zoho.com
+HOST,smtp.zoho.com
+HOST,pop.zoho.com
 HOST-SUFFIX,zoho.com
 HOST-SUFFIX,zohomail.com
 
 # Fastmail
+HOST,imap.fastmail.com
+HOST,smtp.fastmail.com
+HOST,pop.fastmail.com
 HOST-SUFFIX,fastmail.com
 HOST-SUFFIX,messagingengine.com
 
@@ -36,6 +52,21 @@ HOST-SUFFIX,tuta.com
 HOST-SUFFIX,tutanota.com
 
 # Other international mail providers
+HOST,imap.aol.com
+HOST,smtp.aol.com
+HOST,pop.aol.com
+HOST,imap.gmx.com
+HOST,smtp.gmx.com
+HOST,pop.gmx.com
+HOST,imap.mail.com
+HOST,smtp.mail.com
+HOST,pop.mail.com
+HOST,imap.yandex.com
+HOST,smtp.yandex.com
+HOST,pop.yandex.com
+HOST,imap.yandex.ru
+HOST,smtp.yandex.ru
+HOST,pop.yandex.ru
 HOST-SUFFIX,aol.com
 HOST-SUFFIX,gmx.com
 HOST-SUFFIX,mail.com
