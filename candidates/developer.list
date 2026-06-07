@@ -24,16 +24,21 @@ DOMAIN-SUFFIX,atlassian.net
 
 # Homebrew
 DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,formulae.brew.sh
 
 # Docker
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
+DOMAIN,auth.docker.io
+DOMAIN,registry-1.docker.io
+DOMAIN,production.cloudflare.docker.com
 
 # Python / PyPI
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN,files.pythonhosted.org
 
 # Node.js / npm / pnpm / Yarn
 DOMAIN-SUFFIX,nodejs.org
@@ -41,27 +46,41 @@ DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,pnpm.io
 DOMAIN-SUFFIX,yarnpkg.com
+DOMAIN,registry.npmjs.org
+DOMAIN,registry.yarnpkg.com
 
 # Go
 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
+DOMAIN,proxy.golang.org
+DOMAIN,sum.golang.org
 
 # Rust / Cargo
 DOMAIN-SUFFIX,rust-lang.org
 DOMAIN-SUFFIX,rustup.rs
 DOMAIN-SUFFIX,crates.io
+DOMAIN,index.crates.io
+DOMAIN,static.crates.io
+DOMAIN,static.rust-lang.org
 
 # Ruby / RubyGems
 DOMAIN-SUFFIX,ruby-lang.org
 DOMAIN-SUFFIX,ruby-doc.org
 DOMAIN-SUFFIX,rubygems.org
+DOMAIN,index.rubygems.org
 
 # Java / Maven / Gradle
 DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,maven.apache.org
+DOMAIN,repo.maven.apache.org
+DOMAIN,repo1.maven.org
+DOMAIN,search.maven.org
 DOMAIN-SUFFIX,central.sonatype.com
 DOMAIN-SUFFIX,sonatype.com
 DOMAIN-SUFFIX,gradle.org
 DOMAIN-SUFFIX,gradle.com
+DOMAIN,plugins.gradle.org
+DOMAIN,services.gradle.org
 
 # JetBrains / Visual Studio Code
 DOMAIN-SUFFIX,jetbrains.com

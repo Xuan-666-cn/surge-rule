@@ -3,6 +3,7 @@ HOST-SUFFIX,github.com
 HOST-SUFFIX,github.io
 HOST-SUFFIX,githubassets.com
 HOST-SUFFIX,githubusercontent.com
+HOST-SUFFIX,ghcr.io
 HOST-SUFFIX,actions.githubusercontent.com
 HOST-SUFFIX,objects.githubusercontent.com
 HOST-SUFFIX,objects-origin.githubusercontent.com
@@ -13,9 +14,62 @@ HOST-SUFFIX,release-assets.githubusercontent.com
 # GitLab / Bitbucket
 HOST-SUFFIX,gitlab.com
 
+# Homebrew
+HOST-SUFFIX,brew.sh
+HOST-SUFFIX,formulae.brew.sh
+
 # Docker
 HOST-SUFFIX,docker.com
 HOST-SUFFIX,docker.io
+HOST-SUFFIX,dockerhub.com
+HOST,auth.docker.io
+HOST,registry-1.docker.io
+HOST,production.cloudflare.docker.com
+
+# Python / PyPI
+HOST-SUFFIX,python.org
+HOST-SUFFIX,pypi.org
+HOST-SUFFIX,pythonhosted.org
+HOST,files.pythonhosted.org
+
+# Node.js / npm / pnpm / Yarn
+HOST-SUFFIX,nodejs.org
+HOST-SUFFIX,npmjs.com
+HOST-SUFFIX,npmjs.org
+HOST-SUFFIX,pnpm.io
+HOST-SUFFIX,yarnpkg.com
+HOST,registry.npmjs.org
+HOST,registry.yarnpkg.com
 
 # Go
+HOST-SUFFIX,go.dev
 HOST-SUFFIX,golang.org
+HOST,proxy.golang.org
+HOST,sum.golang.org
+
+# Rust / Cargo
+HOST-SUFFIX,rust-lang.org
+HOST-SUFFIX,rustup.rs
+HOST-SUFFIX,crates.io
+HOST,index.crates.io
+HOST,static.crates.io
+HOST,static.rust-lang.org
+
+# Ruby / RubyGems
+HOST-SUFFIX,ruby-lang.org
+HOST-SUFFIX,ruby-doc.org
+HOST-SUFFIX,rubygems.org
+HOST,index.rubygems.org
+
+# Java / Maven / Gradle
+HOST-SUFFIX,maven.org
+HOST-SUFFIX,maven.apache.org
+HOST,repo.maven.apache.org
+HOST,repo1.maven.org
+HOST,search.maven.org
+HOST-SUFFIX,central.sonatype.com
+HOST-SUFFIX,sonatype.com
+HOST-SUFFIX,gradle.org
+HOST-SUFFIX,gradle.com
+HOST,plugins.gradle.org
+HOST,services.gradle.org
