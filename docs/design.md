@@ -9,9 +9,9 @@
 ```text
 候选规则 candidates/
     ↓
-GFWList 筛选 scripts/filter-blocked.js
+规则生成 scripts/generate-rules.js
     ↓
-被墙规则 rules/
+客户端源规则 rules/
     ↓
 构建脚本 scripts/
     ↓
@@ -25,24 +25,25 @@ Surge、Clash、Quantumult X、Shadowrocket 的完整配置格式不同，但它
 因此本项目把规则拆成两部分：
 
 - 候选规则：维护匹配条件，例如 `DOMAIN-SUFFIX,openai.com`
-- 被墙规则：只保留 GFWList 命中的候选域名
+- 客户端源规则：由候选规则生成，默认保留用户确认需要代理或加速的域名
 - 客户端配置：决定命中规则后使用哪个策略
 
 这样可以最大程度复用同一批规则。
 
-## 阻断证据策略
+## 规则生成策略
 
-`candidates/` 保存服务域名候选全集，`rules/` 不再手动编辑，而是由 `scripts/filter-blocked.js` 根据 `data/gfwlist.txt` 生成。
+`candidates/` 保存服务域名候选全集，`rules/` 不再手动编辑，而是由 `scripts/generate-rules.js` 生成。
 
-筛选逻辑：
+生成逻辑：
 
-- 命中 GFWList 的域名进入 `rules/`。
-- 命中 `data/manual-include.list` 的用户手动确认规则也会进入 `rules/`，并在报告中标记为 `manual-include`。
-- 未命中的域名保留在 `candidates/`，并记录到 `reports/*.report.txt`。
+- `candidates/` 中的规则默认进入 `rules/`。
+- 命中 GFWList 的域名会在 `reports/*.report.txt` 中记录对应证据。
+- 命中 `data/manual-include.list` 的用户手动确认规则会在报告中标记为 `manual-include`。
+- 其它候选规则会在报告中标记为 `candidate`。
 - `dist/` 只从 `rules/` 生成。
 - IP 不从 DNS 当前解析结果生成。只有官方明确发布固定 IP 段，才考虑写入规则。
 
-这套逻辑表示“公开阻断证据命中”，不是一次性的 DNS 解析结果，也不是仅按服务归属整理。
+这套逻辑表示“用户确认需要代理或加速”，GFWList 只是辅助证据，不再是纳入规则的前提。
 
 ## 统一规则格式
 
@@ -85,7 +86,7 @@ HOST-SUFFIX,example.com
 HOST-KEYWORD,example
 ```
 
-如果实测 Quantumult X 可以直接订阅 `DOMAIN-*` 写法，则 `dist/quantumultx/` 可以直接复用筛选后的规则。
+如果实测 Quantumult X 可以直接订阅 `DOMAIN-*` 写法，则 `dist/quantumultx/` 可以直接复用生成后的规则。
 
 如果不能兼容，则构建脚本只做轻量转换：
 
@@ -114,6 +115,10 @@ Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、
 ### crypto.list
 
 加密货币交易所、行情工具、预测市场和钱包服务，包括 HTX、Binance、Bybit、Backpack、CoinGlass、Bitget、Polymarket、Kraken、MetaMask、SafePal、OKX、Coinbase、KuCoin、MEXC、Gate、Crypto.com、Bitfinex、Deribit、Gemini、Bitstamp。
+
+### cn2.list
+
+用户指定需要走 CN2 策略组的规则。
 
 ### custom.list
 
@@ -158,7 +163,7 @@ streaming.list
 - 规则文件使用小写英文。
 - 文件后缀使用 `.list`。
 - 候选规则放在 `candidates/`。
-- GFWList 命中的规则放在 `rules/`。
+- 生成后的客户端源规则放在 `rules/`。
 - 生成结果放在 `dist/<client>/`。
 - 一行只写一条规则。
 - 注释使用 `#`。

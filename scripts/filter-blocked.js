@@ -129,7 +129,7 @@ function hasGfwEvidence(domain, gfwDomains) {
   return "";
 }
 
-function filterFile(file, gfwDomains, manualIncludes) {
+function generateFile(file, gfwDomains, manualIncludes) {
   const sourcePath = path.join(candidatesDir, file);
   const lines = fs.readFileSync(sourcePath, "utf8").split(/\r?\n/);
   const output = [];
@@ -158,32 +158,6 @@ function filterFile(file, gfwDomains, manualIncludes) {
       continue;
     }
 
-    const manualKey = trimmed.toLowerCase();
-    if (manualIncludes.has(manualKey)) {
-      if (currentHeader && activeOutputHeader !== currentHeader) {
-        if (output.length && output[output.length - 1] !== "") {
-          output.push("");
-        }
-        output.push(currentHeader);
-        activeOutputHeader = currentHeader;
-      }
-
-      output.push([type, value, ...rest].join(","));
-      report.push(`KEEP ${trimmed} <= manual-include`);
-      continue;
-    }
-
-    if (type === "DOMAIN-KEYWORD") {
-      report.push(`SKIP keyword requires manual verification: ${trimmed}`);
-      continue;
-    }
-
-    const evidence = hasGfwEvidence(value, gfwDomains);
-    if (!evidence) {
-      report.push(`DROP no-gfwlist-match: ${trimmed}`);
-      continue;
-    }
-
     if (currentHeader && activeOutputHeader !== currentHeader) {
       if (output.length && output[output.length - 1] !== "") {
         output.push("");
@@ -193,7 +167,16 @@ function filterFile(file, gfwDomains, manualIncludes) {
     }
 
     output.push([type, value, ...rest].join(","));
-    report.push(`KEEP ${trimmed} <= ${evidence}`);
+
+    const manualKey = trimmed.toLowerCase();
+    if (manualIncludes.has(manualKey)) {
+      report.push(`KEEP ${trimmed} <= manual-include`);
+    } else if (type === "DOMAIN-KEYWORD") {
+      report.push(`KEEP ${trimmed} <= candidate-keyword`);
+    } else {
+      const evidence = hasGfwEvidence(value, gfwDomains);
+      report.push(`KEEP ${trimmed} <= ${evidence || "candidate"}`);
+    }
   }
 
   while (output[output.length - 1] === "") {
@@ -222,11 +205,11 @@ function main() {
     .sort();
 
   for (const file of files) {
-    filterFile(file, gfwDomains, manualIncludes);
+    generateFile(file, gfwDomains, manualIncludes);
   }
 
   console.log(
-    `Filtered ${files.length} candidate rule files with ${gfwDomains.size} GFWList domains and ${manualIncludes.size} manual includes.`,
+    `Generated ${files.length} rule files from candidates with ${gfwDomains.size} GFWList evidence domains and ${manualIncludes.size} manual includes.`,
   );
 }
 

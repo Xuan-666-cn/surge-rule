@@ -4,6 +4,7 @@
   "private": true,
   "description": "Unified proxy routing rule sets.",
   "scripts": {
+    "generate:rules": "node scripts/generate-rules.js",
     "filter:blocked": "node scripts/filter-blocked.js",
     "build": "node scripts/build.js",
     "lint": "node scripts/lint.js"

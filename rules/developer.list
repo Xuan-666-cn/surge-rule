@@ -1,6 +1,8 @@
 # GitHub
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,ghcr.io
@@ -10,9 +12,15 @@ DOMAIN-SUFFIX,objects-origin.githubusercontent.com
 DOMAIN-SUFFIX,github-releases.githubusercontent.com
 DOMAIN-SUFFIX,github-registry-files.githubusercontent.com
 DOMAIN-SUFFIX,release-assets.githubusercontent.com
+DOMAIN-SUFFIX,default.exp-tas.com
 
 # GitLab / Bitbucket
 DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab-static.net
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,bitbucket.io
+DOMAIN-SUFFIX,atlassian.com
+DOMAIN-SUFFIX,atlassian.net
 
 # Homebrew
 DOMAIN-SUFFIX,brew.sh
@@ -73,3 +81,19 @@ DOMAIN-SUFFIX,gradle.org
 DOMAIN-SUFFIX,gradle.com
 DOMAIN,plugins.gradle.org
 DOMAIN,services.gradle.org
+
+# JetBrains / Visual Studio Code
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vsassets.io
+
+# HashiCorp / Terraform
+DOMAIN-SUFFIX,hashicorp.com
+DOMAIN-SUFFIX,terraform.io
+
+# Anaconda / Conda
+DOMAIN-SUFFIX,anaconda.com
+DOMAIN-SUFFIX,anaconda.org
+DOMAIN-SUFFIX,conda-forge.org

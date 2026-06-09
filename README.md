@@ -7,7 +7,7 @@
 ## 目标
 
 - 用一套候选规则维护多个代理客户端需要的分流规则。
-- 订阅规则只发布 GFWList 命中的高置信被墙域名。
+- 订阅规则发布用户确认需要代理或加速的候选域名。
 - 支持 Surge、Clash、Quantumult X、Shadowrocket 等客户端订阅。
 - 把规则按用途拆分，便于维护、审查和回滚。
 - 避免把任何敏感信息提交到仓库。
@@ -16,11 +16,11 @@
 
 ```text
 candidates/            # 候选规则，手动维护这里
-rules/                 # GFWList 命中后的规则，由脚本生成
+rules/                 # 由候选规则生成的客户端源规则
 dist/                  # 客户端订阅规则，由脚本生成
-reports/               # 筛选报告，记录保留和丢弃原因
-data/                  # GFWList 等阻断证据快照
-data/manual-include.list # 用户手动确认需要纳入的规则
+reports/               # 生成报告，记录规则来源和辅助证据
+data/                  # GFWList 等辅助证据快照
+data/manual-include.list # 用户手动确认规则记录
 docs/                  # 项目设计和规则规范
 scripts/               # 构建、检查脚本
 ```
@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,anthropic.com
 
 具体走 `AI`、`PROXY`、`DIRECT` 或其他策略，由各客户端在自己的配置里绑定。
 
-`rules/` 和 `dist/` 只保留 GFWList 命中的域名。未命中的候选域名会记录在 `reports/`，不直接进入订阅规则。
+`rules/` 和 `dist/` 默认保留 `candidates/` 中的候选域名。GFWList 只作为报告里的辅助证据，不再决定是否纳入。
 
 ## 当前规则
 
@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,anthropic.com
 rules/ai.list
 rules/adult.list
 rules/crypto.list
+rules/cn2.list
 rules/custom.list
 rules/developer.list
 rules/google.list
@@ -61,8 +62,7 @@ rules/steam.list
 ## 推荐工作流
 
 1. 在 `candidates/` 中维护候选规则。
-2. 如需强制纳入规则，写入 `data/manual-include.list`。
-3. 运行 `npm run filter:blocked`，按 GFWList 和手动纳入清单生成 `rules/`。
+2. 运行 `npm run generate:rules`，从候选规则生成 `rules/`。
 4. 运行 `npm run lint` 检查规则。
 5. 运行 `npm run build` 生成 `dist/` 下的客户端规则。
 6. 提交并推送到 GitHub 私有仓库。

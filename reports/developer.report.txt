@@ -1,7 +1,7 @@
 KEEP DOMAIN-SUFFIX,github.com <= manual-include
-DROP no-gfwlist-match: DOMAIN-SUFFIX,github.dev
+KEEP DOMAIN-SUFFIX,github.dev <= candidate
 KEEP DOMAIN-SUFFIX,github.io <= github.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,githubapp.com
+KEEP DOMAIN-SUFFIX,githubapp.com <= candidate
 KEEP DOMAIN-SUFFIX,githubassets.com <= manual-include
 KEEP DOMAIN-SUFFIX,githubusercontent.com <= manual-include
 KEEP DOMAIN-SUFFIX,ghcr.io <= manual-include
@@ -11,13 +11,13 @@ KEEP DOMAIN-SUFFIX,objects-origin.githubusercontent.com <= githubusercontent.com
 KEEP DOMAIN-SUFFIX,github-releases.githubusercontent.com <= manual-include
 KEEP DOMAIN-SUFFIX,github-registry-files.githubusercontent.com <= githubusercontent.com
 KEEP DOMAIN-SUFFIX,release-assets.githubusercontent.com <= manual-include
-DROP no-gfwlist-match: DOMAIN-SUFFIX,default.exp-tas.com
+KEEP DOMAIN-SUFFIX,default.exp-tas.com <= candidate
 KEEP DOMAIN-SUFFIX,gitlab.com <= about.gitlab.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,gitlab-static.net
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bitbucket.org
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bitbucket.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,atlassian.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,atlassian.net
+KEEP DOMAIN-SUFFIX,gitlab-static.net <= candidate
+KEEP DOMAIN-SUFFIX,bitbucket.org <= candidate
+KEEP DOMAIN-SUFFIX,bitbucket.io <= candidate
+KEEP DOMAIN-SUFFIX,atlassian.com <= candidate
+KEEP DOMAIN-SUFFIX,atlassian.net <= candidate
 KEEP DOMAIN-SUFFIX,brew.sh <= manual-include
 KEEP DOMAIN-SUFFIX,formulae.brew.sh <= manual-include
 KEEP DOMAIN-SUFFIX,docker.com <= manual-include
@@ -62,13 +62,13 @@ KEEP DOMAIN-SUFFIX,gradle.org <= manual-include
 KEEP DOMAIN-SUFFIX,gradle.com <= manual-include
 KEEP DOMAIN,plugins.gradle.org <= manual-include
 KEEP DOMAIN,services.gradle.org <= manual-include
-DROP no-gfwlist-match: DOMAIN-SUFFIX,jetbrains.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,visualstudio.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,vscode.dev
-DROP no-gfwlist-match: DOMAIN-SUFFIX,vscode-cdn.net
-DROP no-gfwlist-match: DOMAIN-SUFFIX,vsassets.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,hashicorp.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,terraform.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,anaconda.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,anaconda.org
-DROP no-gfwlist-match: DOMAIN-SUFFIX,conda-forge.org
+KEEP DOMAIN-SUFFIX,jetbrains.com <= candidate
+KEEP DOMAIN-SUFFIX,visualstudio.com <= candidate
+KEEP DOMAIN-SUFFIX,vscode.dev <= candidate
+KEEP DOMAIN-SUFFIX,vscode-cdn.net <= candidate
+KEEP DOMAIN-SUFFIX,vsassets.io <= candidate
+KEEP DOMAIN-SUFFIX,hashicorp.com <= candidate
+KEEP DOMAIN-SUFFIX,terraform.io <= candidate
+KEEP DOMAIN-SUFFIX,anaconda.com <= candidate
+KEEP DOMAIN-SUFFIX,anaconda.org <= candidate
+KEEP DOMAIN-SUFFIX,conda-forge.org <= candidate

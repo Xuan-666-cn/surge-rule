@@ -1,42 +1,87 @@
 # HTX / Huobi
 DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,htx-inc.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,huobi.pro
 
 # Binance
 DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bnbstatic.com
 
 # Bybit
 DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybick.com
 
 # Backpack
 DOMAIN-KEYWORD,backpack
+DOMAIN-SUFFIX,backpack.exchange
+DOMAIN-SUFFIX,backpack.app
+
+# CoinGlass
+DOMAIN-SUFFIX,coinglass.com
 
 # Bitget
 DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetimg.com
 
 # Polymarket
 DOMAIN-SUFFIX,polymarket.com
 
 # Kraken
 DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,krak.app
 
 # MetaMask / Infura
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,consensys.io
+DOMAIN-SUFFIX,consensys.net
+
+# SafePal
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
 
 # OKX
 DOMAIN-SUFFIX,okx.com
 
 # Coinbase
 DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbasewallet.com
+DOMAIN-SUFFIX,coinbasecloud.dev
 
 # KuCoin
 DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.io
+DOMAIN-SUFFIX,kucoin.cc
+
+# MEXC
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.fm
 
 # Gate
+DOMAIN-SUFFIX,gate.com
 DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate.ac
+
+# Crypto.com
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,crypto.org
 
 # Bitfinex
 DOMAIN-SUFFIX,bitfinex.com
+
+# Deribit
+DOMAIN-SUFFIX,deribit.com
+
+# Gemini
+DOMAIN-SUFFIX,gemini.com
+
+# Bitstamp
+DOMAIN-SUFFIX,bitstamp.net

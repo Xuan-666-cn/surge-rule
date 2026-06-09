@@ -12,9 +12,9 @@
 ## 当前工作流
 
 ```bash
-npm run filter:blocked
+npm run generate:rules
 npm run lint
 npm run build
 ```
 
-`filter:blocked` 会读取 `candidates/` 中的候选规则，用 `data/gfwlist.txt` 快照筛选出 GFWList 命中的域名并写入 `rules/`。没有命中的候选域名会保留在 `reports/*.report.txt` 中作为待确认项。
+`generate:rules` 会读取 `candidates/` 中的候选规则并写入 `rules/`。`data/gfwlist.txt` 和 `data/manual-include.list` 只用于在 `reports/*.report.txt` 中标注证据来源。

@@ -6,15 +6,15 @@
 https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 ```
 
-The file is used by `scripts/filter-blocked.js` to filter candidate service domains into high-confidence blocked rule sets.
+The file is used by `scripts/generate-rules.js` as auxiliary evidence when generating reports. It no longer decides whether a candidate rule is included.
 
-`manual-include.list` contains user-confirmed rules that should be included even when they are not matched by GFWList. These entries are reported as `manual-include` in `reports/*.report.txt`.
+`manual-include.list` contains user-confirmed rules and acceleration preferences. These entries are reported as `manual-include` in `reports/*.report.txt`.
 
 Update workflow:
 
 ```bash
 curl -L https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt -o data/gfwlist.txt
-npm run filter:blocked
+npm run generate:rules
 npm run lint
 npm run build
 ```

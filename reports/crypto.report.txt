@@ -1,48 +1,48 @@
 KEEP DOMAIN-SUFFIX,htx.com <= htx.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,htx-inc.com
+KEEP DOMAIN-SUFFIX,htx-inc.com <= candidate
 KEEP DOMAIN-SUFFIX,huobi.com <= huobi.com
 KEEP DOMAIN-SUFFIX,huobi.pro <= huobi.pro
 KEEP DOMAIN-SUFFIX,binance.com <= binance.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,binance.us
-DROP no-gfwlist-match: DOMAIN-SUFFIX,binance.info
-DROP no-gfwlist-match: DOMAIN-SUFFIX,binancefuture.com
+KEEP DOMAIN-SUFFIX,binance.us <= candidate
+KEEP DOMAIN-SUFFIX,binance.info <= candidate
+KEEP DOMAIN-SUFFIX,binancefuture.com <= candidate
 KEEP DOMAIN-SUFFIX,bnbstatic.com <= bnbstatic.com
 KEEP DOMAIN-SUFFIX,bybit.com <= bybit.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bybitglobal.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.global
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bybit.kz
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bytick.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bybick.com
+KEEP DOMAIN-SUFFIX,bybitglobal.com <= candidate
+KEEP DOMAIN-SUFFIX,bybit.global <= candidate
+KEEP DOMAIN-SUFFIX,bybit.kz <= candidate
+KEEP DOMAIN-SUFFIX,bytick.com <= candidate
+KEEP DOMAIN-SUFFIX,bybick.com <= candidate
 KEEP DOMAIN-KEYWORD,backpack <= manual-include
-DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.exchange
-DROP no-gfwlist-match: DOMAIN-SUFFIX,backpack.app
-DROP no-gfwlist-match: DOMAIN-SUFFIX,coinglass.com
+KEEP DOMAIN-SUFFIX,backpack.exchange <= candidate
+KEEP DOMAIN-SUFFIX,backpack.app <= candidate
+KEEP DOMAIN-SUFFIX,coinglass.com <= candidate
 KEEP DOMAIN-SUFFIX,bitget.com <= bitget.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bitgetimg.com
+KEEP DOMAIN-SUFFIX,bitgetimg.com <= candidate
 KEEP DOMAIN-SUFFIX,polymarket.com <= polymarket.com
 KEEP DOMAIN-SUFFIX,kraken.com <= kraken.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,krak.app
+KEEP DOMAIN-SUFFIX,krak.app <= candidate
 KEEP DOMAIN-SUFFIX,metamask.io <= metamask.io
 KEEP DOMAIN-SUFFIX,infura.io <= infura.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,consensys.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,consensys.net
-DROP no-gfwlist-match: DOMAIN-SUFFIX,safepal.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,safepal.io
+KEEP DOMAIN-SUFFIX,consensys.io <= candidate
+KEEP DOMAIN-SUFFIX,consensys.net <= candidate
+KEEP DOMAIN-SUFFIX,safepal.com <= candidate
+KEEP DOMAIN-SUFFIX,safepal.io <= candidate
 KEEP DOMAIN-SUFFIX,okx.com <= okx.com
 KEEP DOMAIN-SUFFIX,coinbase.com <= coinbase.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,coinbasewallet.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,coinbasecloud.dev
+KEEP DOMAIN-SUFFIX,coinbasewallet.com <= candidate
+KEEP DOMAIN-SUFFIX,coinbasecloud.dev <= candidate
 KEEP DOMAIN-SUFFIX,kucoin.com <= kucoin.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,kucoin.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,kucoin.cc
-DROP no-gfwlist-match: DOMAIN-SUFFIX,mexc.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,mexc.fm
-DROP no-gfwlist-match: DOMAIN-SUFFIX,gate.com
+KEEP DOMAIN-SUFFIX,kucoin.io <= candidate
+KEEP DOMAIN-SUFFIX,kucoin.cc <= candidate
+KEEP DOMAIN-SUFFIX,mexc.com <= candidate
+KEEP DOMAIN-SUFFIX,mexc.fm <= candidate
+KEEP DOMAIN-SUFFIX,gate.com <= candidate
 KEEP DOMAIN-SUFFIX,gate.io <= gate.io
-DROP no-gfwlist-match: DOMAIN-SUFFIX,gate.ac
-DROP no-gfwlist-match: DOMAIN-SUFFIX,crypto.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,crypto.org
+KEEP DOMAIN-SUFFIX,gate.ac <= candidate
+KEEP DOMAIN-SUFFIX,crypto.com <= candidate
+KEEP DOMAIN-SUFFIX,crypto.org <= candidate
 KEEP DOMAIN-SUFFIX,bitfinex.com <= bitfinex.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,deribit.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,gemini.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,bitstamp.net
+KEEP DOMAIN-SUFFIX,deribit.com <= candidate
+KEEP DOMAIN-SUFFIX,gemini.com <= candidate
+KEEP DOMAIN-SUFFIX,bitstamp.net <= candidate

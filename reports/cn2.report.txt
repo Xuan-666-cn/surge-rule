@@ -1,0 +1,3 @@
+KEEP DOMAIN-SUFFIX,openrouter.ai <= candidate
+KEEP DOMAIN-SUFFIX,nousresearch.com <= candidate
+KEEP DOMAIN-SUFFIX,cmegroup.com <= cmegroup.com

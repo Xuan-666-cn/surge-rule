@@ -18,13 +18,13 @@ KEEP DOMAIN-SUFFIX,youtubekids.com <= youtubekids.com
 KEEP DOMAIN-SUFFIX,withyoutube.com <= withyoutube.com
 KEEP DOMAIN-SUFFIX,withgoogle.com <= withgoogle.com
 KEEP DOMAIN-SUFFIX,blogger.com <= blogger.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.hk
-DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.jp
-DROP no-gfwlist-match: DOMAIN-SUFFIX,blogspot.tw
+KEEP DOMAIN-SUFFIX,blogspot.com <= candidate
+KEEP DOMAIN-SUFFIX,blogspot.hk <= candidate
+KEEP DOMAIN-SUFFIX,blogspot.jp <= candidate
+KEEP DOMAIN-SUFFIX,blogspot.tw <= candidate
 KEEP DOMAIN-SUFFIX,googleblog.com <= googleblog.com
 KEEP DOMAIN-SUFFIX,googlesource.com <= googlesource.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,googletagmanager.com
+KEEP DOMAIN-SUFFIX,googletagmanager.com <= candidate
 KEEP DOMAIN-SUFFIX,gvt1.com <= gvt1.com
-DROP no-gfwlist-match: DOMAIN-SUFFIX,gvt2.com
+KEEP DOMAIN-SUFFIX,gvt2.com <= candidate
 KEEP DOMAIN-SUFFIX,1e100.net <= 1e100.net
