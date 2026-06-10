@@ -50,7 +50,6 @@ HOST-SUFFIX,llama.com
 
 # Hugging Face
 HOST-SUFFIX,huggingface.co
-HOST-SUFFIX,hf.co
 
 # Poe
 HOST-SUFFIX,poe.com

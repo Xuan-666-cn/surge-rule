@@ -50,7 +50,6 @@ DOMAIN-SUFFIX,llama.com
 
 # Hugging Face
 DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,hf.co
 
 # Poe
 DOMAIN-SUFFIX,poe.com

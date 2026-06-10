@@ -27,7 +27,6 @@ KEEP DOMAIN,ai.meta.com <= meta.com
 KEEP DOMAIN-SUFFIX,meta.ai <= candidate
 KEEP DOMAIN-SUFFIX,llama.com <= candidate
 KEEP DOMAIN-SUFFIX,huggingface.co <= huggingface.co
-KEEP DOMAIN-SUFFIX,hf.co <= candidate
 KEEP DOMAIN-SUFFIX,poe.com <= poe.com
 KEEP DOMAIN-SUFFIX,character.ai <= character.ai
 KEEP DOMAIN-SUFFIX,c.ai <= candidate
