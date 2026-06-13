@@ -1,99 +1,99 @@
 # GitHub
-HOST-SUFFIX,github.com
-HOST-SUFFIX,github.dev
-HOST-SUFFIX,github.io
-HOST-SUFFIX,githubapp.com
-HOST-SUFFIX,githubassets.com
-HOST-SUFFIX,githubusercontent.com
-HOST-SUFFIX,ghcr.io
-HOST-SUFFIX,actions.githubusercontent.com
-HOST-SUFFIX,objects.githubusercontent.com
-HOST-SUFFIX,objects-origin.githubusercontent.com
-HOST-SUFFIX,github-releases.githubusercontent.com
-HOST-SUFFIX,github-registry-files.githubusercontent.com
-HOST-SUFFIX,release-assets.githubusercontent.com
-HOST-SUFFIX,default.exp-tas.com
+HOST-SUFFIX,github.com,developer
+HOST-SUFFIX,github.dev,developer
+HOST-SUFFIX,github.io,developer
+HOST-SUFFIX,githubapp.com,developer
+HOST-SUFFIX,githubassets.com,developer
+HOST-SUFFIX,githubusercontent.com,developer
+HOST-SUFFIX,ghcr.io,developer
+HOST-SUFFIX,actions.githubusercontent.com,developer
+HOST-SUFFIX,objects.githubusercontent.com,developer
+HOST-SUFFIX,objects-origin.githubusercontent.com,developer
+HOST-SUFFIX,github-releases.githubusercontent.com,developer
+HOST-SUFFIX,github-registry-files.githubusercontent.com,developer
+HOST-SUFFIX,release-assets.githubusercontent.com,developer
+HOST-SUFFIX,default.exp-tas.com,developer
 
 # GitLab / Bitbucket
-HOST-SUFFIX,gitlab.com
-HOST-SUFFIX,gitlab-static.net
-HOST-SUFFIX,bitbucket.org
-HOST-SUFFIX,bitbucket.io
-HOST-SUFFIX,atlassian.com
-HOST-SUFFIX,atlassian.net
+HOST-SUFFIX,gitlab.com,developer
+HOST-SUFFIX,gitlab-static.net,developer
+HOST-SUFFIX,bitbucket.org,developer
+HOST-SUFFIX,bitbucket.io,developer
+HOST-SUFFIX,atlassian.com,developer
+HOST-SUFFIX,atlassian.net,developer
 
 # Homebrew
-HOST-SUFFIX,brew.sh
-HOST-SUFFIX,formulae.brew.sh
+HOST-SUFFIX,brew.sh,developer
+HOST-SUFFIX,formulae.brew.sh,developer
 
 # Docker
-HOST-SUFFIX,docker.com
-HOST-SUFFIX,docker.io
-HOST-SUFFIX,dockerhub.com
-HOST,auth.docker.io
-HOST,registry-1.docker.io
-HOST,production.cloudflare.docker.com
+HOST-SUFFIX,docker.com,developer
+HOST-SUFFIX,docker.io,developer
+HOST-SUFFIX,dockerhub.com,developer
+HOST,auth.docker.io,developer
+HOST,registry-1.docker.io,developer
+HOST,production.cloudflare.docker.com,developer
 
 # Python / PyPI
-HOST-SUFFIX,python.org
-HOST-SUFFIX,pypi.org
-HOST-SUFFIX,pythonhosted.org
-HOST,files.pythonhosted.org
+HOST-SUFFIX,python.org,developer
+HOST-SUFFIX,pypi.org,developer
+HOST-SUFFIX,pythonhosted.org,developer
+HOST,files.pythonhosted.org,developer
 
 # Node.js / npm / pnpm / Yarn
-HOST-SUFFIX,nodejs.org
-HOST-SUFFIX,npmjs.com
-HOST-SUFFIX,npmjs.org
-HOST-SUFFIX,pnpm.io
-HOST-SUFFIX,yarnpkg.com
-HOST,registry.npmjs.org
-HOST,registry.yarnpkg.com
+HOST-SUFFIX,nodejs.org,developer
+HOST-SUFFIX,npmjs.com,developer
+HOST-SUFFIX,npmjs.org,developer
+HOST-SUFFIX,pnpm.io,developer
+HOST-SUFFIX,yarnpkg.com,developer
+HOST,registry.npmjs.org,developer
+HOST,registry.yarnpkg.com,developer
 
 # Go
-HOST-SUFFIX,go.dev
-HOST-SUFFIX,golang.org
-HOST,proxy.golang.org
-HOST,sum.golang.org
+HOST-SUFFIX,go.dev,developer
+HOST-SUFFIX,golang.org,developer
+HOST,proxy.golang.org,developer
+HOST,sum.golang.org,developer
 
 # Rust / Cargo
-HOST-SUFFIX,rust-lang.org
-HOST-SUFFIX,rustup.rs
-HOST-SUFFIX,crates.io
-HOST,index.crates.io
-HOST,static.crates.io
-HOST,static.rust-lang.org
+HOST-SUFFIX,rust-lang.org,developer
+HOST-SUFFIX,rustup.rs,developer
+HOST-SUFFIX,crates.io,developer
+HOST,index.crates.io,developer
+HOST,static.crates.io,developer
+HOST,static.rust-lang.org,developer
 
 # Ruby / RubyGems
-HOST-SUFFIX,ruby-lang.org
-HOST-SUFFIX,ruby-doc.org
-HOST-SUFFIX,rubygems.org
-HOST,index.rubygems.org
+HOST-SUFFIX,ruby-lang.org,developer
+HOST-SUFFIX,ruby-doc.org,developer
+HOST-SUFFIX,rubygems.org,developer
+HOST,index.rubygems.org,developer
 
 # Java / Maven / Gradle
-HOST-SUFFIX,maven.org
-HOST-SUFFIX,maven.apache.org
-HOST,repo.maven.apache.org
-HOST,repo1.maven.org
-HOST,search.maven.org
-HOST-SUFFIX,central.sonatype.com
-HOST-SUFFIX,sonatype.com
-HOST-SUFFIX,gradle.org
-HOST-SUFFIX,gradle.com
-HOST,plugins.gradle.org
-HOST,services.gradle.org
+HOST-SUFFIX,maven.org,developer
+HOST-SUFFIX,maven.apache.org,developer
+HOST,repo.maven.apache.org,developer
+HOST,repo1.maven.org,developer
+HOST,search.maven.org,developer
+HOST-SUFFIX,central.sonatype.com,developer
+HOST-SUFFIX,sonatype.com,developer
+HOST-SUFFIX,gradle.org,developer
+HOST-SUFFIX,gradle.com,developer
+HOST,plugins.gradle.org,developer
+HOST,services.gradle.org,developer
 
 # JetBrains / Visual Studio Code
-HOST-SUFFIX,jetbrains.com
-HOST-SUFFIX,visualstudio.com
-HOST-SUFFIX,vscode.dev
-HOST-SUFFIX,vscode-cdn.net
-HOST-SUFFIX,vsassets.io
+HOST-SUFFIX,jetbrains.com,developer
+HOST-SUFFIX,visualstudio.com,developer
+HOST-SUFFIX,vscode.dev,developer
+HOST-SUFFIX,vscode-cdn.net,developer
+HOST-SUFFIX,vsassets.io,developer
 
 # HashiCorp / Terraform
-HOST-SUFFIX,hashicorp.com
-HOST-SUFFIX,terraform.io
+HOST-SUFFIX,hashicorp.com,developer
+HOST-SUFFIX,terraform.io,developer
 
 # Anaconda / Conda
-HOST-SUFFIX,anaconda.com
-HOST-SUFFIX,anaconda.org
-HOST-SUFFIX,conda-forge.org
+HOST-SUFFIX,anaconda.com,developer
+HOST-SUFFIX,anaconda.org,developer
+HOST-SUFFIX,conda-forge.org,developer

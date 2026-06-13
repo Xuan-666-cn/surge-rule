@@ -1,17 +1,17 @@
 # Steam platform web, account, community, chat and API
-HOST-SUFFIX,steampowered.com
-HOST-SUFFIX,steamcommunity.com
-HOST-SUFFIX,steamgames.com
-HOST-SUFFIX,steamusercontent.com
-HOST-SUFFIX,steamstatic.com
-HOST-SUFFIX,steam-chat.com
-HOST-SUFFIX,steam-api.com
+HOST-SUFFIX,steampowered.com,steam
+HOST-SUFFIX,steamcommunity.com,steam
+HOST-SUFFIX,steamgames.com,steam
+HOST-SUFFIX,steamusercontent.com,steam
+HOST-SUFFIX,steamstatic.com,steam
+HOST-SUFFIX,steam-chat.com,steam
+HOST-SUFFIX,steam-api.com,steam
 
 # Steam platform CDN hosts, excluding game download/update CDNs
-HOST,steamcommunity-a.akamaihd.net
-HOST,steamstore-a.akamaihd.net
-HOST,steamuserimages-a.akamaihd.net
+HOST,steamcommunity-a.akamaihd.net,steam
+HOST,steamstore-a.akamaihd.net,steam
+HOST,steamuserimages-a.akamaihd.net,steam
 
 # Valve platform domains used by Steam services
-HOST-SUFFIX,valvesoftware.com
-HOST-SUFFIX,valve.net
+HOST-SUFFIX,valvesoftware.com,steam
+HOST-SUFFIX,valve.net,steam

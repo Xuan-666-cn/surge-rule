@@ -1,89 +1,89 @@
 # Telegram
-HOST-SUFFIX,telegram.org
-HOST-SUFFIX,telegram.me
-HOST-SUFFIX,telegram.dog
-HOST-SUFFIX,t.me
+HOST-SUFFIX,telegram.org,social
+HOST-SUFFIX,telegram.me,social
+HOST-SUFFIX,telegram.dog,social
+HOST-SUFFIX,t.me,social
 
 # LINE
-HOST-SUFFIX,line.me
-HOST-SUFFIX,line-apps.com
-HOST-SUFFIX,line-scdn.net
-HOST-SUFFIX,line.biz
-HOST-SUFFIX,lin.ee
+HOST-SUFFIX,line.me,social
+HOST-SUFFIX,line-apps.com,social
+HOST-SUFFIX,line-scdn.net,social
+HOST-SUFFIX,line.biz,social
+HOST-SUFFIX,lin.ee,social
 
 # X / Twitter
-HOST-SUFFIX,x.com
-HOST-SUFFIX,twitter.com
-HOST-SUFFIX,twimg.com
-HOST-SUFFIX,t.co
+HOST-SUFFIX,x.com,social
+HOST-SUFFIX,twitter.com,social
+HOST-SUFFIX,twimg.com,social
+HOST-SUFFIX,t.co,social
 
 # WhatsApp
-HOST-SUFFIX,whatsapp.com
-HOST-SUFFIX,whatsapp.net
+HOST-SUFFIX,whatsapp.com,social
+HOST-SUFFIX,whatsapp.net,social
 
 # Signal
-HOST-SUFFIX,signal.org
-HOST-SUFFIX,signal.art
-HOST-SUFFIX,signal.group
-HOST-SUFFIX,signal.link
-HOST-SUFFIX,signal.me
-HOST-SUFFIX,signal.tube
+HOST-SUFFIX,signal.org,social
+HOST-SUFFIX,signal.art,social
+HOST-SUFFIX,signal.group,social
+HOST-SUFFIX,signal.link,social
+HOST-SUFFIX,signal.me,social
+HOST-SUFFIX,signal.tube,social
 
 # Discord
-HOST-SUFFIX,discord.com
-HOST-SUFFIX,discord.gg
-HOST-SUFFIX,discordapp.com
-HOST-SUFFIX,discordapp.net
+HOST-SUFFIX,discord.com,social
+HOST-SUFFIX,discord.gg,social
+HOST-SUFFIX,discordapp.com,social
+HOST-SUFFIX,discordapp.net,social
 
 # Facebook / Messenger
-HOST-SUFFIX,facebook.com
-HOST-SUFFIX,fb.com
-HOST-SUFFIX,fbcdn.net
-HOST-SUFFIX,fbsbx.com
-HOST-SUFFIX,messenger.com
-HOST-SUFFIX,m.me
+HOST-SUFFIX,facebook.com,social
+HOST-SUFFIX,fb.com,social
+HOST-SUFFIX,fbcdn.net,social
+HOST-SUFFIX,fbsbx.com,social
+HOST-SUFFIX,messenger.com,social
+HOST-SUFFIX,m.me,social
 
 # Instagram / Threads
-HOST-SUFFIX,instagram.com
-HOST-SUFFIX,cdninstagram.com
-HOST-SUFFIX,threads.net
+HOST-SUFFIX,instagram.com,social
+HOST-SUFFIX,cdninstagram.com,social
+HOST-SUFFIX,threads.net,social
 
 # Reddit
-HOST-SUFFIX,reddit.com
-HOST-SUFFIX,redd.it
-HOST-SUFFIX,redditmedia.com
-HOST-SUFFIX,redditstatic.com
+HOST-SUFFIX,reddit.com,social
+HOST-SUFFIX,redd.it,social
+HOST-SUFFIX,redditmedia.com,social
+HOST-SUFFIX,redditstatic.com,social
 
 # Pinterest
-HOST-SUFFIX,pinterest.com
-HOST-SUFFIX,pinimg.com
-HOST-SUFFIX,pin.it
+HOST-SUFFIX,pinterest.com,social
+HOST-SUFFIX,pinimg.com,social
+HOST-SUFFIX,pin.it,social
 
 # Tumblr
-HOST-SUFFIX,tumblr.com
-HOST-SUFFIX,tumblr.co
+HOST-SUFFIX,tumblr.com,social
+HOST-SUFFIX,tumblr.co,social
 
 # Snapchat
-HOST-SUFFIX,snapchat.com
-HOST-SUFFIX,snap.com
-HOST-SUFFIX,sc-cdn.net
+HOST-SUFFIX,snapchat.com,social
+HOST-SUFFIX,snap.com,social
+HOST-SUFFIX,sc-cdn.net,social
 
 # Viber
-HOST-SUFFIX,viber.com
+HOST-SUFFIX,viber.com,social
 
 # KakaoTalk
-HOST-SUFFIX,kakao.com
-HOST-SUFFIX,kakaocdn.net
-HOST-SUFFIX,kakaocorp.com
+HOST-SUFFIX,kakao.com,social
+HOST-SUFFIX,kakaocdn.net,social
+HOST-SUFFIX,kakaocorp.com,social
 
 # Mastodon
-HOST-SUFFIX,joinmastodon.org
-HOST-SUFFIX,mastodon.social
-HOST-SUFFIX,mastodon.online
+HOST-SUFFIX,joinmastodon.org,social
+HOST-SUFFIX,mastodon.social,social
+HOST-SUFFIX,mastodon.online,social
 
 # Medium
-HOST-SUFFIX,medium.com
+HOST-SUFFIX,medium.com,social
 
 # Quora
-HOST-SUFFIX,quora.com
-HOST-SUFFIX,quoracdn.net
+HOST-SUFFIX,quora.com,social
+HOST-SUFFIX,quoracdn.net,social

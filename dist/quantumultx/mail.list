@@ -1,75 +1,75 @@
 # Gmail
-HOST,mail.google.com
-HOST,imap.gmail.com
-HOST,smtp.gmail.com
-HOST,pop.gmail.com
-HOST-SUFFIX,gmail.com
-HOST-SUFFIX,googlemail.com
+HOST,mail.google.com,mail
+HOST,imap.gmail.com,mail
+HOST,smtp.gmail.com,mail
+HOST,pop.gmail.com,mail
+HOST-SUFFIX,gmail.com,mail
+HOST-SUFFIX,googlemail.com,mail
 
 # Outlook / Hotmail / Microsoft Mail
-HOST,imap-mail.outlook.com
-HOST,smtp-mail.outlook.com
-HOST,pop-mail.outlook.com
-HOST,smtp.office365.com
-HOST-SUFFIX,outlook.com
-HOST-SUFFIX,hotmail.com
-HOST-SUFFIX,live.com
-HOST-SUFFIX,office365.com
-HOST-SUFFIX,microsoftonline.com
-HOST-SUFFIX,onmicrosoft.com
-HOST,outlook.office.com
-HOST,outlook.office365.com
-HOST,login.live.com
+HOST,imap-mail.outlook.com,mail
+HOST,smtp-mail.outlook.com,mail
+HOST,pop-mail.outlook.com,mail
+HOST,smtp.office365.com,mail
+HOST-SUFFIX,outlook.com,mail
+HOST-SUFFIX,hotmail.com,mail
+HOST-SUFFIX,live.com,mail
+HOST-SUFFIX,office365.com,mail
+HOST-SUFFIX,microsoftonline.com,mail
+HOST-SUFFIX,onmicrosoft.com,mail
+HOST,outlook.office.com,mail
+HOST,outlook.office365.com,mail
+HOST,login.live.com,mail
 
 # Yahoo Mail
-HOST,imap.mail.yahoo.com
-HOST,smtp.mail.yahoo.com
-HOST,pop.mail.yahoo.com
-HOST-SUFFIX,yahoo.com
-HOST-SUFFIX,ymail.com
-HOST-SUFFIX,rocketmail.com
+HOST,imap.mail.yahoo.com,mail
+HOST,smtp.mail.yahoo.com,mail
+HOST,pop.mail.yahoo.com,mail
+HOST-SUFFIX,yahoo.com,mail
+HOST-SUFFIX,ymail.com,mail
+HOST-SUFFIX,rocketmail.com,mail
 
 # Proton Mail
-HOST-SUFFIX,proton.me
-HOST-SUFFIX,protonmail.com
+HOST-SUFFIX,proton.me,mail
+HOST-SUFFIX,protonmail.com,mail
 
 # Zoho Mail
-HOST,imap.zoho.com
-HOST,smtp.zoho.com
-HOST,pop.zoho.com
-HOST-SUFFIX,zoho.com
-HOST-SUFFIX,zohomail.com
+HOST,imap.zoho.com,mail
+HOST,smtp.zoho.com,mail
+HOST,pop.zoho.com,mail
+HOST-SUFFIX,zoho.com,mail
+HOST-SUFFIX,zohomail.com,mail
 
 # Fastmail
-HOST,imap.fastmail.com
-HOST,smtp.fastmail.com
-HOST,pop.fastmail.com
-HOST-SUFFIX,fastmail.com
-HOST-SUFFIX,messagingengine.com
+HOST,imap.fastmail.com,mail
+HOST,smtp.fastmail.com,mail
+HOST,pop.fastmail.com,mail
+HOST-SUFFIX,fastmail.com,mail
+HOST-SUFFIX,messagingengine.com,mail
 
 # Tuta / Tutanota
-HOST-SUFFIX,tuta.com
-HOST-SUFFIX,tutanota.com
+HOST-SUFFIX,tuta.com,mail
+HOST-SUFFIX,tutanota.com,mail
 
 # Other international mail providers
-HOST,imap.aol.com
-HOST,smtp.aol.com
-HOST,pop.aol.com
-HOST,imap.gmx.com
-HOST,smtp.gmx.com
-HOST,pop.gmx.com
-HOST,imap.mail.com
-HOST,smtp.mail.com
-HOST,pop.mail.com
-HOST,imap.yandex.com
-HOST,smtp.yandex.com
-HOST,pop.yandex.com
-HOST,imap.yandex.ru
-HOST,smtp.yandex.ru
-HOST,pop.yandex.ru
-HOST-SUFFIX,aol.com
-HOST-SUFFIX,gmx.com
-HOST-SUFFIX,mail.com
-HOST-SUFFIX,hey.com
-HOST-SUFFIX,yandex.com
-HOST-SUFFIX,yandex.ru
+HOST,imap.aol.com,mail
+HOST,smtp.aol.com,mail
+HOST,pop.aol.com,mail
+HOST,imap.gmx.com,mail
+HOST,smtp.gmx.com,mail
+HOST,pop.gmx.com,mail
+HOST,imap.mail.com,mail
+HOST,smtp.mail.com,mail
+HOST,pop.mail.com,mail
+HOST,imap.yandex.com,mail
+HOST,smtp.yandex.com,mail
+HOST,pop.yandex.com,mail
+HOST,imap.yandex.ru,mail
+HOST,smtp.yandex.ru,mail
+HOST,pop.yandex.ru,mail
+HOST-SUFFIX,aol.com,mail
+HOST-SUFFIX,gmx.com,mail
+HOST-SUFFIX,mail.com,mail
+HOST-SUFFIX,hey.com,mail
+HOST-SUFFIX,yandex.com,mail
+HOST-SUFFIX,yandex.ru,mail

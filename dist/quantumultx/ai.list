@@ -1,52 +1,52 @@
 # OpenAI / ChatGPT / Codex
-HOST-SUFFIX,openai.com
-HOST-SUFFIX,chatgpt.com
-HOST-SUFFIX,oaistatic.com
-HOST-SUFFIX,oaiusercontent.com
-HOST-SUFFIX,openaiusercontent.com
+HOST-SUFFIX,openai.com,ai
+HOST-SUFFIX,chatgpt.com,ai
+HOST-SUFFIX,oaistatic.com,ai
+HOST-SUFFIX,oaiusercontent.com,ai
+HOST-SUFFIX,openaiusercontent.com,ai
 
 # Anthropic / Claude
-HOST-SUFFIX,anthropic.com
-HOST-SUFFIX,claude.ai
-HOST-SUFFIX,claude.com
+HOST-SUFFIX,anthropic.com,ai
+HOST-SUFFIX,claude.ai,ai
+HOST-SUFFIX,claude.com,ai
 
 # Google Gemini
-HOST,gemini.google.com
-HOST-SUFFIX,ai.google.dev
-HOST-SUFFIX,generativelanguage.googleapis.com
-HOST-SUFFIX,aiplatform.googleapis.com
+HOST,gemini.google.com,ai
+HOST-SUFFIX,ai.google.dev,ai
+HOST-SUFFIX,generativelanguage.googleapis.com,ai
+HOST-SUFFIX,aiplatform.googleapis.com,ai
 
 # xAI / Grok
-HOST-SUFFIX,x.ai
-HOST-SUFFIX,grok.com
-HOST-SUFFIX,grok.x.ai
+HOST-SUFFIX,x.ai,ai
+HOST-SUFFIX,grok.com,ai
+HOST-SUFFIX,grok.x.ai,ai
 
 # Microsoft Copilot
-HOST,copilot.microsoft.com
+HOST,copilot.microsoft.com,ai
 
 # GitHub Copilot
-HOST-SUFFIX,githubcopilot.com
+HOST-SUFFIX,githubcopilot.com,ai
 
 # Perplexity
-HOST-SUFFIX,perplexity.ai
+HOST-SUFFIX,perplexity.ai,ai
 
 # Mistral / Le Chat
-HOST-SUFFIX,mistral.ai
+HOST-SUFFIX,mistral.ai,ai
 
 # Meta AI
-HOST,ai.meta.com
+HOST,ai.meta.com,ai
 
 # Poe
-HOST-SUFFIX,poe.com
+HOST-SUFFIX,poe.com,ai
 
 # Character.AI
-HOST-SUFFIX,character.ai
+HOST-SUFFIX,character.ai,ai
 
 # You.com
-HOST-SUFFIX,you.com
+HOST-SUFFIX,you.com,ai
 
 # Leonardo.AI
-HOST-SUFFIX,leonardo.ai
+HOST-SUFFIX,leonardo.ai,ai
 
 # Suno
-HOST-SUFFIX,suno.com
+HOST-SUFFIX,suno.com,ai

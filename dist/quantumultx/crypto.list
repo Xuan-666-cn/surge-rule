@@ -1,87 +1,87 @@
 # HTX / Huobi
-HOST-SUFFIX,htx.com
-HOST-SUFFIX,htx-inc.com
-HOST-SUFFIX,huobi.com
-HOST-SUFFIX,huobi.pro
+HOST-SUFFIX,htx.com,crypto
+HOST-SUFFIX,htx-inc.com,crypto
+HOST-SUFFIX,huobi.com,crypto
+HOST-SUFFIX,huobi.pro,crypto
 
 # Binance
-HOST-SUFFIX,binance.com
-HOST-SUFFIX,binance.us
-HOST-SUFFIX,binance.info
-HOST-SUFFIX,binancefuture.com
-HOST-SUFFIX,bnbstatic.com
+HOST-SUFFIX,binance.com,crypto
+HOST-SUFFIX,binance.us,crypto
+HOST-SUFFIX,binance.info,crypto
+HOST-SUFFIX,binancefuture.com,crypto
+HOST-SUFFIX,bnbstatic.com,crypto
 
 # Bybit
-HOST-SUFFIX,bybit.com
-HOST-SUFFIX,bybitglobal.com
-HOST-SUFFIX,bybit.global
-HOST-SUFFIX,bybit.kz
-HOST-SUFFIX,bytick.com
-HOST-SUFFIX,bybick.com
+HOST-SUFFIX,bybit.com,crypto
+HOST-SUFFIX,bybitglobal.com,crypto
+HOST-SUFFIX,bybit.global,crypto
+HOST-SUFFIX,bybit.kz,crypto
+HOST-SUFFIX,bytick.com,crypto
+HOST-SUFFIX,bybick.com,crypto
 
 # Backpack
-HOST-KEYWORD,backpack
-HOST-SUFFIX,backpack.exchange
-HOST-SUFFIX,backpack.app
+HOST-KEYWORD,backpack,crypto
+HOST-SUFFIX,backpack.exchange,crypto
+HOST-SUFFIX,backpack.app,crypto
 
 # CoinGlass
-HOST-SUFFIX,coinglass.com
+HOST-SUFFIX,coinglass.com,crypto
 
 # Bitget
-HOST-SUFFIX,bitget.com
-HOST-SUFFIX,bitgetimg.com
+HOST-SUFFIX,bitget.com,crypto
+HOST-SUFFIX,bitgetimg.com,crypto
 
 # Polymarket
-HOST-SUFFIX,polymarket.com
+HOST-SUFFIX,polymarket.com,crypto
 
 # Kraken
-HOST-SUFFIX,kraken.com
-HOST-SUFFIX,krak.app
+HOST-SUFFIX,kraken.com,crypto
+HOST-SUFFIX,krak.app,crypto
 
 # MetaMask / Infura
-HOST-SUFFIX,metamask.io
-HOST-SUFFIX,infura.io
-HOST-SUFFIX,consensys.io
-HOST-SUFFIX,consensys.net
+HOST-SUFFIX,metamask.io,crypto
+HOST-SUFFIX,infura.io,crypto
+HOST-SUFFIX,consensys.io,crypto
+HOST-SUFFIX,consensys.net,crypto
 
 # SafePal
-HOST-SUFFIX,safepal.com
-HOST-SUFFIX,safepal.io
+HOST-SUFFIX,safepal.com,crypto
+HOST-SUFFIX,safepal.io,crypto
 
 # OKX
-HOST-SUFFIX,okx.com
+HOST-SUFFIX,okx.com,crypto
 
 # Coinbase
-HOST-SUFFIX,coinbase.com
-HOST-SUFFIX,coinbasewallet.com
-HOST-SUFFIX,coinbasecloud.dev
+HOST-SUFFIX,coinbase.com,crypto
+HOST-SUFFIX,coinbasewallet.com,crypto
+HOST-SUFFIX,coinbasecloud.dev,crypto
 
 # KuCoin
-HOST-SUFFIX,kucoin.com
-HOST-SUFFIX,kucoin.io
-HOST-SUFFIX,kucoin.cc
+HOST-SUFFIX,kucoin.com,crypto
+HOST-SUFFIX,kucoin.io,crypto
+HOST-SUFFIX,kucoin.cc,crypto
 
 # MEXC
-HOST-SUFFIX,mexc.com
-HOST-SUFFIX,mexc.fm
+HOST-SUFFIX,mexc.com,crypto
+HOST-SUFFIX,mexc.fm,crypto
 
 # Gate
-HOST-SUFFIX,gate.com
-HOST-SUFFIX,gate.io
-HOST-SUFFIX,gate.ac
+HOST-SUFFIX,gate.com,crypto
+HOST-SUFFIX,gate.io,crypto
+HOST-SUFFIX,gate.ac,crypto
 
 # Crypto.com
-HOST-SUFFIX,crypto.com
-HOST-SUFFIX,crypto.org
+HOST-SUFFIX,crypto.com,crypto
+HOST-SUFFIX,crypto.org,crypto
 
 # Bitfinex
-HOST-SUFFIX,bitfinex.com
+HOST-SUFFIX,bitfinex.com,crypto
 
 # Deribit
-HOST-SUFFIX,deribit.com
+HOST-SUFFIX,deribit.com,crypto
 
 # Gemini
-HOST-SUFFIX,gemini.com
+HOST-SUFFIX,gemini.com,crypto
 
 # Bitstamp
-HOST-SUFFIX,bitstamp.net
+HOST-SUFFIX,bitstamp.net,crypto

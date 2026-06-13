@@ -26,19 +26,38 @@ function readRuleFiles() {
     .sort();
 }
 
-function toQuantumultX(content) {
+function toQuantumultX(content, policyName) {
   return content
     .split(/\r?\n/)
     .map((line) => {
-      if (line.startsWith("DOMAIN-SUFFIX,")) {
-        return line.replace("DOMAIN-SUFFIX,", "HOST-SUFFIX,");
+      if (!line || line.startsWith("#")) {
+        return line;
       }
-      if (line.startsWith("DOMAIN-KEYWORD,")) {
-        return line.replace("DOMAIN-KEYWORD,", "HOST-KEYWORD,");
+
+      const convertRule = (prefix, qxPrefix) => {
+        if (!line.startsWith(prefix)) {
+          return "";
+        }
+
+        const parts = line.split(",");
+        return [qxPrefix, parts[1], policyName].join(",");
+      };
+
+      const domainSuffix = convertRule("DOMAIN-SUFFIX,", "HOST-SUFFIX");
+      if (domainSuffix) {
+        return domainSuffix;
       }
-      if (line.startsWith("DOMAIN,")) {
-        return line.replace("DOMAIN,", "HOST,");
+
+      const domainKeyword = convertRule("DOMAIN-KEYWORD,", "HOST-KEYWORD");
+      if (domainKeyword) {
+        return domainKeyword;
       }
+
+      const domain = convertRule("DOMAIN,", "HOST");
+      if (domain) {
+        return domain;
+      }
+
       return line;
     })
     .join("\n");
@@ -52,10 +71,11 @@ function build() {
   for (const file of readRuleFiles()) {
     const sourcePath = path.join(rulesDir, file);
     const source = fs.readFileSync(sourcePath, "utf8");
+    const policyName = path.basename(file, ".list");
 
     for (const client of clients) {
       const output =
-        client === "quantumultx" ? toQuantumultX(source) : source;
+        client === "quantumultx" ? toQuantumultX(source, policyName) : source;
       fs.writeFileSync(path.join(distDir, client, file), output);
     }
   }
