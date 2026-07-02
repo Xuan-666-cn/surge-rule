@@ -58,6 +58,21 @@ function toQuantumultX(content, policyName) {
         return domain;
       }
 
+      const ipCidr = convertRule("IP-CIDR,", "IP-CIDR");
+      if (ipCidr) {
+        return ipCidr;
+      }
+
+      const ipCidr6 = convertRule("IP-CIDR6,", "IP6-CIDR");
+      if (ipCidr6) {
+        return ipCidr6;
+      }
+
+      const geoip = convertRule("GEOIP,", "GEOIP");
+      if (geoip) {
+        return geoip;
+      }
+
       return line;
     })
     .join("\n");

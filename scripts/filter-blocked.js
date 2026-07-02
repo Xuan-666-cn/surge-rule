@@ -153,7 +153,16 @@ function generateFile(file, gfwDomains, manualIncludes) {
     }
 
     const [type, value, ...rest] = trimmed.split(",");
-    if (!["DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD"].includes(type)) {
+    if (
+      ![
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "GEOIP",
+      ].includes(type)
+    ) {
       report.push(`SKIP unsupported: ${trimmed}`);
       continue;
     }
@@ -173,6 +182,8 @@ function generateFile(file, gfwDomains, manualIncludes) {
       report.push(`KEEP ${trimmed} <= manual-include`);
     } else if (type === "DOMAIN-KEYWORD") {
       report.push(`KEEP ${trimmed} <= candidate-keyword`);
+    } else if (["IP-CIDR", "IP-CIDR6", "GEOIP"].includes(type)) {
+      report.push(`KEEP ${trimmed} <= candidate`);
     } else {
       const evidence = hasGfwEvidence(value, gfwDomains);
       report.push(`KEEP ${trimmed} <= ${evidence || "candidate"}`);
