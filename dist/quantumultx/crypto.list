@@ -19,11 +19,6 @@ HOST-SUFFIX,bybit.kz,crypto
 HOST-SUFFIX,bytick.com,crypto
 HOST-SUFFIX,bybick.com,crypto
 
-# Backpack
-HOST-KEYWORD,backpack,crypto
-HOST-SUFFIX,backpack.exchange,crypto
-HOST-SUFFIX,backpack.app,crypto
-
 # CoinGlass
 HOST-SUFFIX,coinglass.com,crypto
 

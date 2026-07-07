@@ -15,7 +15,6 @@ KEEP DOMAIN-SUFFIX,facebook.net <= connect.facebook.net
 KEEP DOMAIN-SUFFIX,huggingface.co <= huggingface.co
 KEEP DOMAIN-SUFFIX,t66y.com <= t66y.com
 KEEP DOMAIN-SUFFIX,avmeme.com <= candidate
-KEEP DOMAIN-SUFFIX,2925.com <= candidate
 KEEP DOMAIN-SUFFIX,rsshub.app <= rsshub.app
 KEEP DOMAIN-SUFFIX,fox.com <= candidate
 KEEP DOMAIN-SUFFIX,neverless.com <= candidate
