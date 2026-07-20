@@ -1,52 +1,24 @@
-# OpenAI / ChatGPT / Codex
+# OpenAI / ChatGPT / Codex (core web, authentication, and API only)
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openaiusercontent.com
 
-# Anthropic / Claude
+# Anthropic / Claude (official API and Console inbound CIDRs included)
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
 
-# Google Gemini
+# Google Gemini / AI Studio / Vertex AI (including regional aiplatform endpoints)
 DOMAIN,gemini.google.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-KEYWORD,aiplatform
 
 # xAI / Grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grok.x.ai
 
-# Microsoft Copilot
+# Microsoft Copilot (consumer web only; shared Bing and Microsoft 365 excluded)
 DOMAIN,copilot.microsoft.com
-
-# GitHub Copilot
-DOMAIN-SUFFIX,githubcopilot.com
-
-# Perplexity
-DOMAIN-SUFFIX,perplexity.ai
-
-# Mistral / Le Chat
-DOMAIN-SUFFIX,mistral.ai
-
-# Meta AI
-DOMAIN,ai.meta.com
-
-# Poe
-DOMAIN-SUFFIX,poe.com
-
-# Character.AI
-DOMAIN-SUFFIX,character.ai
-
-# You.com
-DOMAIN-SUFFIX,you.com
-
-# Leonardo.AI
-DOMAIN-SUFFIX,leonardo.ai
-
-# Suno
-DOMAIN-SUFFIX,suno.com
