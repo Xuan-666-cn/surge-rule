@@ -1,0 +1,18 @@
+
+# CN2 preferred routes
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,cmegroup.com
+DOMAIN-SUFFIX,cboe.com
+DOMAIN-SUFFIX,thetradingpit.com
+DOMAIN-KEYWORD,tradingview
+DOMAIN-SUFFIX,ampclientportal.com
+DOMAIN-SUFFIX,tradesea.ai
+DOMAIN-SUFFIX,fundedfuturesnetwork.com
+
+# Interactive Brokers / IBKR
+DOMAIN-KEYWORD,ibkr
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-KEYWORD,ibllc
+
+# Akamai mPulse loaded by IBKR pages
+DOMAIN,c.go-mpulse.net

@@ -1,3 +1,0 @@
-KEEP DOMAIN,api.ibkr.com <= manual-include
-KEEP DOMAIN,ndcdyn.interactivebrokers.com <= manual-include
-KEEP DOMAIN,c.go-mpulse.net <= manual-include

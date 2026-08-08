@@ -1,0 +1,18 @@
+
+# CN2 preferred routes
+HOST-SUFFIX,openrouter.ai,US
+HOST-SUFFIX,cmegroup.com,US
+HOST-SUFFIX,cboe.com,US
+HOST-SUFFIX,thetradingpit.com,US
+HOST-KEYWORD,tradingview,US
+HOST-SUFFIX,ampclientportal.com,US
+HOST-SUFFIX,tradesea.ai,US
+HOST-SUFFIX,fundedfuturesnetwork.com,US
+
+# Interactive Brokers / IBKR
+HOST-KEYWORD,ibkr,US
+HOST-KEYWORD,interactivebrokers,US
+HOST-KEYWORD,ibllc,US
+
+# Akamai mPulse loaded by IBKR pages
+HOST,c.go-mpulse.net,US

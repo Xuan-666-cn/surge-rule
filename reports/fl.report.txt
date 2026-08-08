@@ -1,3 +1,0 @@
-KEEP DOMAIN-KEYWORD,backpack <= manual-include
-KEEP DOMAIN-SUFFIX,backpack.exchange <= candidate
-KEEP DOMAIN-SUFFIX,backpack.app <= candidate
