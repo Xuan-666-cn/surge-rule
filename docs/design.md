@@ -100,10 +100,6 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 ## 当前规则分类
 
-### crypto.list
-
-加密货币交易所、行情工具、预测市场和钱包服务，包括 HTX、Binance、Bybit、CoinGlass、Bitget、Polymarket、Kraken、MetaMask、SafePal、OKX、Coinbase、KuCoin、MEXC、Gate、Crypto.com、Bitfinex、Deribit、Gemini、Bitstamp。
-
 ### EU.list
 
 Backpack 交易平台与 ATAS / FL 相关域名、关键字和固定 IP。
@@ -115,10 +111,6 @@ Backpack 交易平台与 ATAS / FL 相关域名、关键字和固定 IP。
 ### custom.list
 
 用户手动确认需要纳入的常用规则，并包含原 adult、developer、google、mail、social、steam 分类的规则。
-
-### ai.list
-
-主流 AI 服务和大模型平台，包括 OpenAI/ChatGPT/Codex、Anthropic/Claude、Google Gemini、xAI/Grok、Microsoft Copilot、GitHub Copilot、Perplexity、Mistral、DeepSeek、Cohere、Meta AI/Llama、Hugging Face、Poe，以及常见代码、图像、视频、音频、写作和国内大模型平台。
 
 ## 待整理分类
 

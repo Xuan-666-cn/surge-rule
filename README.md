@@ -29,7 +29,7 @@ scripts/               # 构建、检查脚本
 
 候选规则只描述“匹配什么”，不描述“走哪个策略”。
 
-例如 `candidates/ai.list` 只写：
+例如 `candidates/custom.list` 只写：
 
 ```text
 DOMAIN-SUFFIX,openai.com
@@ -44,8 +44,6 @@ DOMAIN-SUFFIX,anthropic.com
 ## 当前规则
 
 ```text
-rules/ai.list
-rules/crypto.list
 rules/US.list
 rules/custom.list
 rules/EU.list

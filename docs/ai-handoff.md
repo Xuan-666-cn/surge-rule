@@ -212,7 +212,7 @@ IP-CIDR6          -> IP6-CIDR
 GEOIP             -> GEOIP
 ```
 
-例如 `rules/ai.list` 中：
+例如历史版本的 `rules/ai.list` 中：
 
 ```text
 DOMAIN-SUFFIX,openai.com
@@ -242,12 +242,10 @@ IP-CIDR,160.79.104.0/23,ai
 
 ## 6. 当前规则分类快照
 
-截至 2026-07-24，仓库有 5 个分类。数量按 `candidates/` 中非注释规则统计：
+截至 2026-07-24，仓库有 3 个分类。数量按 `candidates/` 中非注释规则统计：
 
 | 分类 | 规则数 | 用途 |
 |---|---:|---|
-| `ai.list` | 15 | 精简后的五家核心 AI 服务与 Anthropic 固定入站 IP |
-| `crypto.list` | 45 | 交易所、钱包、行情和预测市场 |
 | `custom.list` | 329 | 用户手工规则及原 adult、developer、google、mail、social、steam 分类 |
 | `EU.list` | 12 | Backpack / ATAS 相关域名、关键字和固定 IP |
 | `US.list` | 11 | CN2 优选线路与 Interactive Brokers 相关域名 |
@@ -267,11 +265,7 @@ IP-CIDR,160.79.104.0/23,ai
 
 方案已于 2026-07-20 通过 PR `#1` 合并到 `main`，合并提交为 `065ada01b9066286b30f3b91537fce89b8052678`。
 
-Surge 订阅地址：
-
-```text
-https://raw.githubusercontent.com/Xuan-666-cn/surge-rule/main/dist/surge/ai.list
-```
+该 AI 分类现已移除，不再提供独立订阅地址。
 
 ### 7.2 当前 AI 规则
 
@@ -432,7 +426,7 @@ git switch main
 git pull --ff-only origin main
 
 # 2. 只编辑候选文件
-$EDITOR candidates/ai.list
+$EDITOR candidates/custom.list
 
 # 3. 生成通用规则和报告
 npm run generate:rules
@@ -446,8 +440,8 @@ npm run build
 # 6. 检查输出
 git diff --check
 git status --short
-git diff -- candidates/ai.list rules/ai.list reports/ai.report.txt
-git diff -- dist/surge/ai.list dist/quantumultx/ai.list
+git diff -- candidates/custom.list rules/custom.list reports/custom.report.txt
+git diff -- dist/surge/custom.list dist/quantumultx/custom.list
 ```
 
 检查完成后，确认改动范围只包含：
@@ -524,7 +518,7 @@ https://raw.githubusercontent.com/Xuan-666-cn/surge-rule/main/dist/<client>/<nam
 例如：
 
 ```text
-https://raw.githubusercontent.com/Xuan-666-cn/surge-rule/main/dist/surge/ai.list
+https://raw.githubusercontent.com/Xuan-666-cn/surge-rule/main/dist/surge/custom.list
 ```
 
 功能分支 URL 可以临时验证，但长期订阅必须指向 `main`。
