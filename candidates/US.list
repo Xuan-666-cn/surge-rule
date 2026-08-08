@@ -1,7 +1,6 @@
 # US routes (CN2 / IBKR)
 
 # CN2 preferred routes
-DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,cmegroup.com
 DOMAIN-SUFFIX,cboe.com
 DOMAIN-SUFFIX,thetradingpit.com

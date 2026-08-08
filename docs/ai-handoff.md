@@ -250,7 +250,7 @@ IP-CIDR,160.79.104.0/23,ai
 | `crypto.list` | 45 | 交易所、钱包、行情和预测市场 |
 | `custom.list` | 329 | 用户手工规则及原 adult、developer、google、mail、social、steam 分类 |
 | `EU.list` | 12 | Backpack / ATAS 相关域名、关键字和固定 IP |
-| `US.list` | 12 | CN2 优选线路与 Interactive Brokers 相关域名 |
+| `US.list` | 11 | CN2 优选线路与 Interactive Brokers 相关域名 |
 
 数量是维护提示，不是稳定 API。每次规则变动后都可能变化。
 
