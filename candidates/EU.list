@@ -1,10 +1,5 @@
 # FL routes (Backpack / ATAS)
 
-# Backpack
-DOMAIN-KEYWORD,backpack
-DOMAIN-SUFFIX,backpack.exchange
-DOMAIN-SUFFIX,backpack.app
-
 # ATAS
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,orderflowtrading.net

@@ -44,7 +44,6 @@ DOMAIN-SUFFIX,anthropic.com
 ## 当前规则
 
 ```text
-rules/US.list
 rules/custom.list
 rules/EU.list
 ```

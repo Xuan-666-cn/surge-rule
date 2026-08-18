@@ -102,11 +102,7 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 ### EU.list
 
-Backpack 交易平台与 ATAS / FL 相关域名、关键字和固定 IP。
-
-### US.list
-
-合并 CN2 优选线路规则与 Interactive Brokers / IBKR 相关规则，包括交易和 AI 服务域名、IBKR Web API、登录/动态页面域名，以及页面依赖的 Akamai mPulse 域名。
+ATAS / FL 相关域名、关键字和固定 IP。
 
 ### custom.list
 

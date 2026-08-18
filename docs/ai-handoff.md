@@ -242,13 +242,12 @@ IP-CIDR,160.79.104.0/23,ai
 
 ## 6. 当前规则分类快照
 
-截至 2026-07-24，仓库有 3 个分类。数量按 `candidates/` 中非注释规则统计：
+截至 2026-08-18，仓库有 2 个分类。数量按 `candidates/` 中非注释规则统计：
 
 | 分类 | 规则数 | 用途 |
 |---|---:|---|
 | `custom.list` | 329 | 用户手工规则及原 adult、developer、google、mail、social、steam 分类 |
-| `EU.list` | 12 | Backpack / ATAS 相关域名、关键字和固定 IP |
-| `US.list` | 11 | CN2 优选线路与 Interactive Brokers 相关域名 |
+| `EU.list` | 9 | ATAS 相关域名、关键字和固定 IP |
 
 数量是维护提示，不是稳定 API。每次规则变动后都可能变化。
 

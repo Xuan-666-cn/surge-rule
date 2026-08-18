@@ -1,6 +1,3 @@
-KEEP DOMAIN-KEYWORD,backpack <= manual-include
-KEEP DOMAIN-SUFFIX,backpack.exchange <= candidate
-KEEP DOMAIN-SUFFIX,backpack.app <= candidate
 KEEP DOMAIN-SUFFIX,amplitude.com <= candidate
 KEEP DOMAIN-SUFFIX,orderflowtrading.net <= candidate
 KEEP IP-CIDR,142.132.201.231/32,no-resolve <= candidate
