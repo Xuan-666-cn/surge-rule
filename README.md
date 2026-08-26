@@ -29,7 +29,7 @@ scripts/               # 构建、检查脚本
 
 候选规则只描述“匹配什么”，不描述“走哪个策略”。
 
-例如 `candidates/ai.list` 只写：
+例如 `candidates/custom.list` 只写：
 
 ```text
 DOMAIN-SUFFIX,openai.com
@@ -44,20 +44,11 @@ DOMAIN-SUFFIX,anthropic.com
 ## 当前规则
 
 ```text
-rules/ai.list
-rules/adult.list
-rules/crypto.list
-rules/cn2.list
 rules/custom.list
-rules/developer.list
-rules/google.list
-rules/ibkr.list
-rules/mail.list
-rules/social.list
-rules/steam.list
+rules/AI.list
 ```
 
-其他分类会在实际整理完成后再加入仓库。
+规则分类以仓库中的实际文件为准。
 
 ## 推荐工作流
 
@@ -67,6 +58,12 @@ rules/steam.list
 5. 运行 `npm run build` 生成 `dist/` 下的客户端规则。
 6. 提交并推送到 GitHub 私有仓库。
 7. 各代理工具订阅 `dist/` 中对应规则集。
+
+## AI / 维护者接手
+
+完整的项目设计、脚本逻辑、规则维护要求、当前 AI/FL/ATAS 方案、验证与 GitHub 发布流程，见：
+
+- [`docs/ai-handoff.md`](docs/ai-handoff.md)
 
 ## 不应提交的内容
 

@@ -1,7 +1,4 @@
 # User custom rules
-HOST-KEYWORD,rithmic,custom
-HOST-SUFFIX,takeprofittrader.com,custom
-HOST-SUFFIX,workmarket.com,custom
 HOST-SUFFIX,bandwagonhost.com,custom
 HOST-SUFFIX,boostnet1.com,custom
 HOST-SUFFIX,ssrdog.com,custom
@@ -20,3 +17,405 @@ HOST-SUFFIX,rsshub.app,custom
 HOST-SUFFIX,fox.com,custom
 HOST-SUFFIX,neverless.com,custom
 HOST-SUFFIX,odysee.com,custom
+HOST-SUFFIX,spotgamma.com,custom
+HOST-SUFFIX,mikrotik.com,custom
+HOST-SUFFIX,futuhk.com,custom
+HOST-SUFFIX,futunn.com,custom
+HOST-SUFFIX,coconts.com,custom
+HOST-SUFFIX,doppiocdn.org,custom
+HOST-SUFFIX,doppiocdn.com,custom
+HOST-SUFFIX,thedd.online,custom
+HOST-SUFFIX,doppiostreams.com,custom
+
+# Requested
+HOST-SUFFIX,bad.news,custom
+HOST-SUFFIX,stripchat.com,custom
+HOST-SUFFIX,stripcdn.com,custom
+HOST-SUFFIX,strpst.com,custom
+HOST-SUFFIX,hanime1.me,custom
+HOST-SUFFIX,missav.com,custom
+HOST-SUFFIX,missav.ws,custom
+HOST-SUFFIX,missav.ai,custom
+HOST-SUFFIX,missav.live,custom
+HOST-SUFFIX,missav123.com,custom
+HOST-SUFFIX,supjav.com,custom
+HOST-SUFFIX,pornhub.com,custom
+HOST-SUFFIX,pornhubpremium.com,custom
+HOST-SUFFIX,phncdn.com,custom
+
+# Popular adult video sites
+HOST-SUFFIX,xvideos.com,custom
+HOST-SUFFIX,xvideos-cdn.com,custom
+HOST-SUFFIX,xv-cdn.com,custom
+HOST-SUFFIX,xnxx.com,custom
+HOST-SUFFIX,xnxx-cdn.com,custom
+HOST-SUFFIX,xhamster.com,custom
+HOST-SUFFIX,xhcdn.com,custom
+HOST-SUFFIX,redtube.com,custom
+HOST-SUFFIX,youporn.com,custom
+HOST-SUFFIX,ypncdn.com,custom
+HOST-SUFFIX,spankbang.com,custom
+HOST-SUFFIX,spankbang.party,custom
+HOST-SUFFIX,spankcdn.net,custom
+HOST-SUFFIX,eporner.com,custom
+HOST-SUFFIX,epornercdn.com,custom
+HOST-SUFFIX,txxx.com,custom
+HOST-SUFFIX,txxx.tube,custom
+HOST-SUFFIX,tnaflix.com,custom
+HOST-SUFFIX,nuvid.com,custom
+HOST-SUFFIX,beeg.com,custom
+HOST-SUFFIX,gotporn.com,custom
+HOST-SUFFIX,drtuber.com,custom
+HOST-SUFFIX,porntrex.com,custom
+HOST-SUFFIX,porntube.com,custom
+HOST-SUFFIX,porn.com,custom
+
+# Live cam and creator platforms
+HOST-SUFFIX,chaturbate.com,custom
+HOST-SUFFIX,highwebmedia.com,custom
+HOST-SUFFIX,bongacams.com,custom
+HOST-SUFFIX,bongacamscdn.com,custom
+HOST-SUFFIX,cam4.com,custom
+HOST-SUFFIX,cam4cdn.com,custom
+HOST-SUFFIX,myfreecams.com,custom
+HOST-SUFFIX,mfcimg.com,custom
+HOST-SUFFIX,livejasmin.com,custom
+HOST-SUFFIX,jasmin.com,custom
+HOST-SUFFIX,onlyfans.com,custom
+HOST-SUFFIX,of.tv,custom
+HOST-SUFFIX,fansly.com,custom
+
+# JAV / Asian adult sites
+HOST-SUFFIX,javdb.com,custom
+HOST-SUFFIX,javbus.com,custom
+HOST-SUFFIX,javlibrary.com,custom
+HOST-SUFFIX,thisav.com,custom
+HOST-SUFFIX,netflav.com,custom
+HOST-SUFFIX,avgle.com,custom
+HOST-SUFFIX,fc2.com,custom
+HOST-SUFFIX,fc2club.com,custom
+
+# Adult anime / image boards
+HOST-SUFFIX,hanime.tv,custom
+HOST-SUFFIX,hentaigasm.com,custom
+HOST-SUFFIX,nhentai.net,custom
+HOST-SUFFIX,rule34.xxx,custom
+HOST-SUFFIX,rule34video.com,custom
+HOST-SUFFIX,gelbooru.com,custom
+HOST-SUFFIX,danbooru.donmai.us,custom
+
+# GitHub
+HOST-SUFFIX,github.com,custom
+HOST-SUFFIX,github.dev,custom
+HOST-SUFFIX,github.io,custom
+HOST-SUFFIX,githubapp.com,custom
+HOST-SUFFIX,githubassets.com,custom
+HOST-SUFFIX,githubusercontent.com,custom
+HOST-SUFFIX,ghcr.io,custom
+HOST-SUFFIX,actions.githubusercontent.com,custom
+HOST-SUFFIX,objects.githubusercontent.com,custom
+HOST-SUFFIX,objects-origin.githubusercontent.com,custom
+HOST-SUFFIX,github-releases.githubusercontent.com,custom
+HOST-SUFFIX,github-registry-files.githubusercontent.com,custom
+HOST-SUFFIX,release-assets.githubusercontent.com,custom
+HOST-SUFFIX,default.exp-tas.com,custom
+
+# GitLab / Bitbucket
+HOST-SUFFIX,gitlab.com,custom
+HOST-SUFFIX,gitlab-static.net,custom
+HOST-SUFFIX,bitbucket.org,custom
+HOST-SUFFIX,bitbucket.io,custom
+HOST-SUFFIX,atlassian.com,custom
+HOST-SUFFIX,atlassian.net,custom
+
+# Homebrew
+HOST-SUFFIX,brew.sh,custom
+HOST-SUFFIX,formulae.brew.sh,custom
+
+# Docker
+HOST-SUFFIX,docker.com,custom
+HOST-SUFFIX,docker.io,custom
+HOST-SUFFIX,dockerhub.com,custom
+HOST,auth.docker.io,custom
+HOST,registry-1.docker.io,custom
+HOST,production.cloudflare.docker.com,custom
+
+# Python / PyPI
+HOST-SUFFIX,python.org,custom
+HOST-SUFFIX,pypi.org,custom
+HOST-SUFFIX,pythonhosted.org,custom
+HOST,files.pythonhosted.org,custom
+
+# Node.js / npm / pnpm / Yarn
+HOST-SUFFIX,nodejs.org,custom
+HOST-SUFFIX,npmjs.com,custom
+HOST-SUFFIX,npmjs.org,custom
+HOST-SUFFIX,pnpm.io,custom
+HOST-SUFFIX,yarnpkg.com,custom
+HOST,registry.npmjs.org,custom
+HOST,registry.yarnpkg.com,custom
+
+# Go
+HOST-SUFFIX,go.dev,custom
+HOST-SUFFIX,golang.org,custom
+HOST,proxy.golang.org,custom
+HOST,sum.golang.org,custom
+
+# Rust / Cargo
+HOST-SUFFIX,rust-lang.org,custom
+HOST-SUFFIX,rustup.rs,custom
+HOST-SUFFIX,crates.io,custom
+HOST,index.crates.io,custom
+HOST,static.crates.io,custom
+HOST,static.rust-lang.org,custom
+
+# Ruby / RubyGems
+HOST-SUFFIX,ruby-lang.org,custom
+HOST-SUFFIX,ruby-doc.org,custom
+HOST-SUFFIX,rubygems.org,custom
+HOST,index.rubygems.org,custom
+
+# Java / Maven / Gradle
+HOST-SUFFIX,maven.org,custom
+HOST-SUFFIX,maven.apache.org,custom
+HOST,repo.maven.apache.org,custom
+HOST,repo1.maven.org,custom
+HOST,search.maven.org,custom
+HOST-SUFFIX,central.sonatype.com,custom
+HOST-SUFFIX,sonatype.com,custom
+HOST-SUFFIX,gradle.org,custom
+HOST-SUFFIX,gradle.com,custom
+HOST,plugins.gradle.org,custom
+HOST,services.gradle.org,custom
+
+# JetBrains / Visual Studio Code
+HOST-SUFFIX,jetbrains.com,custom
+HOST-SUFFIX,visualstudio.com,custom
+HOST-SUFFIX,vscode.dev,custom
+HOST-SUFFIX,vscode-cdn.net,custom
+HOST-SUFFIX,vsassets.io,custom
+
+# HashiCorp / Terraform
+HOST-SUFFIX,hashicorp.com,custom
+HOST-SUFFIX,terraform.io,custom
+
+# Anaconda / Conda
+HOST-SUFFIX,anaconda.com,custom
+HOST-SUFFIX,anaconda.org,custom
+HOST-SUFFIX,conda-forge.org,custom
+
+# Google services
+HOST-SUFFIX,google.com,custom
+HOST-SUFFIX,google.com.hk,custom
+HOST-SUFFIX,google.com.tw,custom
+HOST-SUFFIX,google.co.jp,custom
+HOST-SUFFIX,google.co.uk,custom
+HOST-SUFFIX,google.com.sg,custom
+HOST-SUFFIX,googlevideo.com,custom
+HOST-SUFFIX,googleapis.com,custom
+HOST-SUFFIX,gstatic.com,custom
+HOST-SUFFIX,googleusercontent.com,custom
+HOST-SUFFIX,ggpht.com,custom
+HOST-SUFFIX,ytimg.com,custom
+HOST-SUFFIX,youtube.com,custom
+HOST-SUFFIX,youtube-nocookie.com,custom
+HOST-SUFFIX,youtu.be,custom
+HOST-SUFFIX,youtubeeducation.com,custom
+HOST-SUFFIX,youtubekids.com,custom
+HOST-SUFFIX,withyoutube.com,custom
+HOST-SUFFIX,withgoogle.com,custom
+HOST-SUFFIX,blogger.com,custom
+HOST-SUFFIX,blogspot.com,custom
+HOST-SUFFIX,blogspot.hk,custom
+HOST-SUFFIX,blogspot.jp,custom
+HOST-SUFFIX,blogspot.tw,custom
+HOST-SUFFIX,googleblog.com,custom
+HOST-SUFFIX,googlesource.com,custom
+HOST-SUFFIX,googletagmanager.com,custom
+HOST-SUFFIX,gvt1.com,custom
+HOST-SUFFIX,gvt2.com,custom
+HOST-SUFFIX,1e100.net,custom
+
+# Gmail
+HOST,mail.google.com,custom
+HOST,imap.gmail.com,custom
+HOST,smtp.gmail.com,custom
+HOST,pop.gmail.com,custom
+HOST-SUFFIX,gmail.com,custom
+HOST-SUFFIX,googlemail.com,custom
+
+# Outlook / Hotmail / Microsoft Mail
+HOST,imap-mail.outlook.com,custom
+HOST,smtp-mail.outlook.com,custom
+HOST,pop-mail.outlook.com,custom
+HOST,smtp.office365.com,custom
+HOST-SUFFIX,outlook.com,custom
+HOST-SUFFIX,hotmail.com,custom
+HOST-SUFFIX,live.com,custom
+HOST-SUFFIX,office365.com,custom
+HOST-SUFFIX,microsoftonline.com,custom
+HOST-SUFFIX,onmicrosoft.com,custom
+HOST,outlook.office.com,custom
+HOST,outlook.office365.com,custom
+HOST,login.live.com,custom
+
+# Yahoo Mail
+HOST,imap.mail.yahoo.com,custom
+HOST,smtp.mail.yahoo.com,custom
+HOST,pop.mail.yahoo.com,custom
+HOST-SUFFIX,yahoo.com,custom
+HOST-SUFFIX,ymail.com,custom
+HOST-SUFFIX,rocketmail.com,custom
+
+# Proton Mail
+HOST-SUFFIX,proton.me,custom
+HOST-SUFFIX,protonmail.com,custom
+
+# Zoho Mail
+HOST,imap.zoho.com,custom
+HOST,smtp.zoho.com,custom
+HOST,pop.zoho.com,custom
+HOST-SUFFIX,zoho.com,custom
+HOST-SUFFIX,zohomail.com,custom
+
+# Fastmail
+HOST,imap.fastmail.com,custom
+HOST,smtp.fastmail.com,custom
+HOST,pop.fastmail.com,custom
+HOST-SUFFIX,fastmail.com,custom
+HOST-SUFFIX,messagingengine.com,custom
+
+# Tuta / Tutanota
+HOST-SUFFIX,tuta.com,custom
+HOST-SUFFIX,tutanota.com,custom
+
+# Other international mail providers
+HOST,imap.aol.com,custom
+HOST,smtp.aol.com,custom
+HOST,pop.aol.com,custom
+HOST,imap.gmx.com,custom
+HOST,smtp.gmx.com,custom
+HOST,pop.gmx.com,custom
+HOST,imap.mail.com,custom
+HOST,smtp.mail.com,custom
+HOST,pop.mail.com,custom
+HOST,imap.yandex.com,custom
+HOST,smtp.yandex.com,custom
+HOST,pop.yandex.com,custom
+HOST,imap.yandex.ru,custom
+HOST,smtp.yandex.ru,custom
+HOST,pop.yandex.ru,custom
+HOST-SUFFIX,aol.com,custom
+HOST-SUFFIX,gmx.com,custom
+HOST-SUFFIX,mail.com,custom
+HOST-SUFFIX,hey.com,custom
+HOST-SUFFIX,yandex.com,custom
+HOST-SUFFIX,yandex.ru,custom
+
+# Telegram
+HOST-SUFFIX,telegram.org,custom
+HOST-SUFFIX,telegram.me,custom
+HOST-SUFFIX,telegram.dog,custom
+HOST-SUFFIX,t.me,custom
+
+# LINE
+HOST-SUFFIX,line.me,custom
+HOST-SUFFIX,line-apps.com,custom
+HOST-SUFFIX,line-scdn.net,custom
+HOST-SUFFIX,line.biz,custom
+HOST-SUFFIX,lin.ee,custom
+
+# X / Twitter
+HOST-SUFFIX,x.com,custom
+HOST-SUFFIX,twitter.com,custom
+HOST-SUFFIX,twimg.com,custom
+HOST-SUFFIX,t.co,custom
+
+# WhatsApp
+HOST-SUFFIX,whatsapp.com,custom
+HOST-SUFFIX,whatsapp.net,custom
+
+# Signal
+HOST-SUFFIX,signal.org,custom
+HOST-SUFFIX,signal.art,custom
+HOST-SUFFIX,signal.group,custom
+HOST-SUFFIX,signal.link,custom
+HOST-SUFFIX,signal.me,custom
+HOST-SUFFIX,signal.tube,custom
+
+# Discord
+HOST-SUFFIX,discord.com,custom
+HOST-SUFFIX,discord.gg,custom
+HOST-SUFFIX,discordapp.com,custom
+HOST-SUFFIX,discordapp.net,custom
+
+# Facebook / Messenger
+HOST-SUFFIX,facebook.com,custom
+HOST-SUFFIX,fb.com,custom
+HOST-SUFFIX,fbcdn.net,custom
+HOST-SUFFIX,fbsbx.com,custom
+HOST-SUFFIX,messenger.com,custom
+HOST-SUFFIX,m.me,custom
+
+# Instagram / Threads
+HOST-SUFFIX,instagram.com,custom
+HOST-SUFFIX,cdninstagram.com,custom
+HOST-SUFFIX,threads.net,custom
+
+# Reddit
+HOST-SUFFIX,reddit.com,custom
+HOST-SUFFIX,redd.it,custom
+HOST-SUFFIX,redditmedia.com,custom
+HOST-SUFFIX,redditstatic.com,custom
+
+# Pinterest
+HOST-SUFFIX,pinterest.com,custom
+HOST-SUFFIX,pinimg.com,custom
+HOST-SUFFIX,pin.it,custom
+
+# Tumblr
+HOST-SUFFIX,tumblr.com,custom
+HOST-SUFFIX,tumblr.co,custom
+
+# Snapchat
+HOST-SUFFIX,snapchat.com,custom
+HOST-SUFFIX,snap.com,custom
+HOST-SUFFIX,sc-cdn.net,custom
+
+# Viber
+HOST-SUFFIX,viber.com,custom
+
+# KakaoTalk
+HOST-SUFFIX,kakao.com,custom
+HOST-SUFFIX,kakaocdn.net,custom
+HOST-SUFFIX,kakaocorp.com,custom
+
+# Mastodon
+HOST-SUFFIX,joinmastodon.org,custom
+HOST-SUFFIX,mastodon.social,custom
+HOST-SUFFIX,mastodon.online,custom
+
+# Medium
+HOST-SUFFIX,medium.com,custom
+
+# Quora
+HOST-SUFFIX,quora.com,custom
+HOST-SUFFIX,quoracdn.net,custom
+
+# Steam platform web, account, community, chat and API
+HOST-SUFFIX,steampowered.com,custom
+HOST-SUFFIX,steamcommunity.com,custom
+HOST-SUFFIX,steamgames.com,custom
+HOST-SUFFIX,steamusercontent.com,custom
+HOST-SUFFIX,steamstatic.com,custom
+HOST-SUFFIX,steam-chat.com,custom
+HOST-SUFFIX,steam-api.com,custom
+
+# Steam platform CDN hosts, excluding game download/update CDNs
+HOST,steamcommunity-a.akamaihd.net,custom
+HOST,steamstore-a.akamaihd.net,custom
+HOST,steamuserimages-a.akamaihd.net,custom
+
+# Valve platform domains used by Steam services
+HOST-SUFFIX,valvesoftware.com,custom
+HOST-SUFFIX,valve.net,custom

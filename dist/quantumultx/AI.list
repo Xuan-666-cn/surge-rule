@@ -1,0 +1,66 @@
+# Migrated user rules
+HOST-KEYWORD,rithmic,AI
+HOST-SUFFIX,takeprofittrader.com,AI
+HOST-SUFFIX,workmarket.com,AI
+
+# User-provided rules
+HOST-SUFFIX,fundedfuturesnetwork.com,AI
+HOST-SUFFIX,b.ai,AI
+HOST-KEYWORD,ibllc,AI
+HOST-KEYWORD,ibkr,AI
+HOST-KEYWORD,interactivebrokers,AI
+
+# OpenAI / ChatGPT / Codex first-party domains
+HOST-SUFFIX,openai.com,AI
+HOST-SUFFIX,chatgpt.com,AI
+HOST-SUFFIX,oaistatic.com,AI
+HOST-SUFFIX,oaiusercontent.com,AI
+HOST-SUFFIX,oaistatsig.com,AI
+HOST,cdn.openaimerge.com,AI
+
+# OpenAI / ChatGPT documented service dependencies
+HOST-SUFFIX,ct.sendgrid.net,AI
+HOST-SUFFIX,intercom.io,AI
+HOST-SUFFIX,intercomcdn.com,AI
+HOST,cdn.workos.com,AI
+HOST,challenges.cloudflare.com,AI
+HOST,forwarder.workos.com,AI
+HOST,humb.apple.com,AI
+HOST,images.workoscdn.com,AI
+HOST,js.stripe.com,AI
+HOST,o207216.ingest.sentry.io,AI
+HOST,o33249.ingest.sentry.io,AI
+HOST,rum.browser-intake-datadoghq.com,AI
+HOST,setup.workos.com,AI
+HOST,workos.imgix.net,AI
+
+# OpenCode
+HOST-SUFFIX,opencode.ai,AI
+
+# OpenRouter
+HOST-SUFFIX,openrouter.ai,AI
+
+# ChatGPT Voice IPs, from OpenAI chatgpt-voice.json (2026-03-26)
+IP-CIDR,102.37.57.54/32,AI
+IP-CIDR,13.71.25.29/32,AI
+IP-CIDR,135.220.40.201/32,AI
+IP-CIDR,172.203.39.49/32,AI
+IP-CIDR,172.207.173.200/32,AI
+IP-CIDR,172.214.226.198/32,AI
+IP-CIDR,191.233.251.27/32,AI
+IP-CIDR,20.162.96.163/32,AI
+IP-CIDR,20.168.48.117/32,AI
+IP-CIDR,20.184.36.134/32,AI
+IP-CIDR,20.203.144.245/32,AI
+IP-CIDR,20.74.221.21/32,AI
+IP-CIDR,4.151.200.38/32,AI
+IP-CIDR,4.155.146.196/32,AI
+IP-CIDR,4.197.172.116/32,AI
+IP-CIDR,4.217.235.100/32,AI
+IP-CIDR,4.245.198.13/32,AI
+IP-CIDR,40.118.236.137/32,AI
+IP-CIDR,51.4.112.173/32,AI
+IP-CIDR,52.143.181.161/32,AI
+IP-CIDR,68.155.152.41/32,AI
+IP-CIDR,72.146.20.246/32,AI
+IP-CIDR,74.248.148.7/32,AI

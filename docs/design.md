@@ -100,49 +100,13 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 ## 当前规则分类
 
-### developer.list
+### AI.list
 
-开发工具和代码服务，包括 GitHub、GitLab、Bitbucket、Homebrew、Docker、Python/PyPI、Node/npm、Go、Rust/Cargo、RubyGems、Maven、Gradle、JetBrains、Visual Studio Code、HashiCorp/Terraform、Anaconda/Conda。
-
-### google.list
-
-Google 服务，包括 Google 搜索、账号、Gmail、Google APIs、YouTube、Google Video、gstatic、googleusercontent 等。
-
-### social.list
-
-通讯和社交服务，包括 Telegram、LINE、X/Twitter、WhatsApp、Signal、Discord、Facebook、Instagram、Threads、Reddit、Pinterest、Tumblr、Snapchat、Viber、KakaoTalk、Mastodon、Medium、Quora。
-
-### crypto.list
-
-加密货币交易所、行情工具、预测市场和钱包服务，包括 HTX、Binance、Bybit、Backpack、CoinGlass、Bitget、Polymarket、Kraken、MetaMask、SafePal、OKX、Coinbase、KuCoin、MEXC、Gate、Crypto.com、Bitfinex、Deribit、Gemini、Bitstamp。
-
-### cn2.list
-
-用户指定需要走 CN2 策略组的规则。
+AI、交易工具及相关服务规则，包含 OpenAI、ChatGPT、Codex、OpenCode、OpenRouter 和用户指定条目。
 
 ### custom.list
 
-用户手动确认需要纳入的常用规则。
-
-### ibkr.list
-
-Interactive Brokers / IBKR 相关规则，包括 IBKR Web API、Interactive Brokers 登录/动态页面域名，以及用户确认由 IBKR 页面加载的 Akamai mPulse 域名。
-
-### mail.list
-
-国外邮件服务和访问较慢的邮箱相关域名，包括 Gmail、Outlook/Hotmail、Yahoo Mail、Proton Mail、Zoho Mail、Fastmail、Tuta/Tutanota 等。
-
-### steam.list
-
-Steam 平台、商店、社区、登录、客户端更新、创意工坊和 Steam 内容分发相关域名。不包含具体游戏厂商或游戏服务器域名。
-
-### adult.list
-
-成人内容、成人直播和成人视频站点，包括用户指定站点以及常见热门成人内容平台。
-
-### ai.list
-
-主流 AI 服务和大模型平台，包括 OpenAI/ChatGPT/Codex、Anthropic/Claude、Google Gemini、xAI/Grok、Microsoft Copilot、GitHub Copilot、Perplexity、Mistral、DeepSeek、Cohere、Meta AI/Llama、Hugging Face、Poe，以及常见代码、图像、视频、音频、写作和国内大模型平台。
+用户手动确认需要纳入的常用规则，并包含原 adult、developer、google、mail、social、steam 分类的规则。
 
 ## 待整理分类
 
@@ -160,7 +124,7 @@ streaming.list
 
 ## 命名约定
 
-- 规则文件使用小写英文。
+- 规则文件默认使用小写英文；缩写分类可按约定使用大写，例如 `AI.list`。
 - 文件后缀使用 `.list`。
 - 候选规则放在 `candidates/`。
 - 生成后的客户端源规则放在 `rules/`。

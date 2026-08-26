@@ -1,7 +1,0 @@
-KEEP DOMAIN-SUFFIX,openrouter.ai <= candidate
-KEEP DOMAIN-SUFFIX,cmegroup.com <= cmegroup.com
-KEEP DOMAIN-SUFFIX,cboe.com <= candidate
-KEEP DOMAIN-SUFFIX,thetradingpit.com <= candidate
-KEEP DOMAIN-SUFFIX,tradingview-widget.com <= candidate
-KEEP DOMAIN-SUFFIX,ampclientportal.com <= candidate
-KEEP DOMAIN-SUFFIX,tradesea.ai <= candidate

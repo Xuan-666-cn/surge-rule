@@ -1,7 +1,0 @@
-# Interactive Brokers / IBKR
-DOMAIN,api.ibkr.com
-DOMAIN,ndcdyn.interactivebrokers.com
-
-# Akamai mPulse loaded by IBKR pages
-DOMAIN,c.go-mpulse.net
-
