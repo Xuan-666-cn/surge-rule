@@ -246,8 +246,8 @@ IP-CIDR,160.79.104.0/23,ai
 
 | 分类 | 规则数 | 用途 |
 |---|---:|---|
-| `custom.list` | 329 | 用户手工规则及原 adult、developer、google、mail、social、steam 分类 |
-| `EU.list` | 9 | ATAS 相关域名、关键字和固定 IP |
+| `custom.list` | 326 | 用户手工规则及原 adult、developer、google、mail、social、steam 分类 |
+| `AI.list` | 53 | AI、交易工具、OpenAI、ChatGPT、Codex、OpenCode、OpenRouter 及 ChatGPT Voice IP |
 
 数量是维护提示，不是稳定 API。每次规则变动后都可能变化。
 
@@ -264,36 +264,11 @@ IP-CIDR,160.79.104.0/23,ai
 
 方案已于 2026-07-20 通过 PR `#1` 合并到 `main`，合并提交为 `065ada01b9066286b30f3b91537fce89b8052678`。
 
-该 AI 分类现已移除，不再提供独立订阅地址。
+该 AI 分类现已重新建立，并加入用户指定规则和已核验的相关服务规则。
 
 ### 7.2 当前 AI 规则
 
-```text
-# OpenAI / ChatGPT / Codex (core web, authentication, and API only)
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-
-# Anthropic / Claude (official API and Console inbound CIDRs included)
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-IP-CIDR,160.79.104.0/23,no-resolve
-IP-CIDR6,2607:6bc0::/48,no-resolve
-
-# Google Gemini / AI Studio / Vertex AI (including regional aiplatform endpoints)
-DOMAIN,gemini.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,ai.google.dev
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN-KEYWORD,aiplatform
-
-# xAI / Grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-
-# Microsoft Copilot (consumer web only; shared Bing and Microsoft 365 excluded)
-DOMAIN,copilot.microsoft.com
-```
+当前规则以 `candidates/AI.list` 为准。
 
 ### 7.3 取舍说明
 
@@ -374,47 +349,6 @@ DOMAIN,copilot.microsoft.com
 
 - <https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-requirements>
 
-## 8. FL 与 ATAS 当前状态
-
-### 8.1 `EU.list`
-
-```text
-# FL routes (Backpack / ATAS)
-
-# Backpack
-DOMAIN-KEYWORD,backpack
-DOMAIN-SUFFIX,backpack.exchange
-DOMAIN-SUFFIX,backpack.app
-
-# ATAS
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,orderflowtrading.net
-IP-CIDR,142.132.201.231/32,no-resolve
-IP-CIDR,51.178.130.10/32,no-resolve
-IP-CIDR,65.21.32.251/32,no-resolve
-IP-CIDR,135.181.115.236/32,no-resolve
-DOMAIN-KEYWORD,atas
-DOMAIN-KEYWORD,wanfa998
-DOMAIN-KEYWORD,dianjin998
-```
-
-该规则集合并了 Backpack 交易平台与 ATAS / FL 相关规则。`DOMAIN-KEYWORD,backpack` 已能匹配后两条 Backpack 域名，存在语义冗余，同时可能匹配任何包含 `backpack` 的无关域名。
-
-如果后续要优化低流量：
-
-1. 先抓取或查阅 Backpack 官方网络请求/文档。
-2. 将稳定第一方域名写成 `DOMAIN-SUFFIX`。
-3. 确认没有动态主机依赖后移除 `DOMAIN-KEYWORD,backpack`。
-
-已知风险：
-
-- `amplitude.com` 是许多应用共用的分析/遥测平台，可能代理大量与 ATAS 无关的流量。
-- `DOMAIN-KEYWORD,atas` 很宽，会命中任何主机名中含 `atas` 的地址。
-- 四个 `/32` 是精确单 IP，但仓库目前没有记录其来源和复核日期。
-- `wanfa998` 与 `dianjin998` 是用户特定关键字，归属和必要性需要实际流量或用户确认。
-
-不要在没有证据的情况下删除这些规则；但下一次维护应优先补齐来源、用途和最近验证日期。
-
 ## 9. 标准维护流程
 
 ### 9.1 修改现有规则
@@ -455,7 +389,7 @@ git diff -- dist/surge/custom.list dist/quantumultx/custom.list
 ### 9.2 新增分类
 
 1. 新建 `candidates/<name>.list`。
-2. 文件名默认使用小写英文和 `.list` 后缀；缩写分类可按约定使用大写，例如 `EU.list`。
+2. 文件名默认使用小写英文和 `.list` 后缀；缩写分类可按约定使用大写，例如 `AI.list`。
 3. 按服务分组写单行注释。
 4. 运行完整生成流程。
 5. 确认自动产生同名 `rules`、`report` 和四个 `dist` 文件。

@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,anthropic.com
 
 ```text
 rules/custom.list
-rules/EU.list
+rules/AI.list
 ```
 
 规则分类以仓库中的实际文件为准。

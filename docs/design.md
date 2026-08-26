@@ -100,9 +100,9 @@ DOMAIN-KEYWORD -> HOST-KEYWORD
 
 ## 当前规则分类
 
-### EU.list
+### AI.list
 
-ATAS / FL 相关域名、关键字和固定 IP。
+AI、交易工具及相关服务规则，包含 OpenAI、ChatGPT、Codex、OpenCode、OpenRouter 和用户指定条目。
 
 ### custom.list
 
@@ -124,7 +124,7 @@ streaming.list
 
 ## 命名约定
 
-- 规则文件默认使用小写英文；缩写分类可按约定使用大写，例如 `EU.list`。
+- 规则文件默认使用小写英文；缩写分类可按约定使用大写，例如 `AI.list`。
 - 文件后缀使用 `.list`。
 - 候选规则放在 `candidates/`。
 - 生成后的客户端源规则放在 `rules/`。
